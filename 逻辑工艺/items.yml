@@ -1,0 +1,2730 @@
+
+LOGICTECH_COMPRESSEDBUG:
+  category: logictech_basicmaterial
+  item-type: CUSTOM
+  item-name: "&x&e&b&3&3&e&b&k压&x&d&6&2&6&d&6&k缩&x&c&1&1&a&c&1&kB&x&a&c&0&d&a&c&kU&x&9&7&0&0&9&7&kG"
+  item-lore:
+    - "&7混沌之始"
+    - ""
+    - "&3逻辑工艺材料"
+  item-id: SKULL7881c8764fbf93b2315ca113573fa799f4cfdc0ca868c83405255a7d556a739f
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: COMPRESSOR
+  crafting-recipe:
+    crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: FINALTECH_BUG
+      amount: 61
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: FINALTECH_BUG
+      amount: 59
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: FINALTECH_BUG
+      amount: 19
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: FINALTECH_BUG
+      amount: 53
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: FINALTECH_BUG
+      amount: 47
+
+LOGICTECH_INFINITERING:
+  category: logictech_basicmaterial
+  item-type: CUSTOM
+  item-name: "&x&e&b&3&3&e&b&k逻&x&d&6&2&6&d&6&k辑&x&c&1&1&a&c&1&k之&x&a&c&0&d&a&c&k回&x&9&7&0&0&9&7&k环"
+  item-lore:
+    - "&7混沌之终"
+    - ""
+    - "&3逻辑工艺材料"
+  item-id: SKULL5d86d096b8c08ad5da6eaca9a101751fbc68770d67d531e8cfa563ba73f97a3c
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: COMPRESSOR
+  crafting-recipe:
+    crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: FINALTECH_ANNULAR
+      amount: 17
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+
+LOGICTECH_ORDERFIELD:
+  category: logictech_basicmaterial
+  item-type: CUSTOM
+  item-name: "&x&e&b&3&3&e&b有&x&c&f&2&2&c&f序&x&b&3&1&1&b&3力&x&9&7&0&0&9&7场"
+  item-lore:
+    - "&7用于隔绝&7&k混沌"
+    - ""
+    - "&3逻辑工艺材料"
+  item-id: PINK_STAINED_GLASS
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: SMELTERY
+  crafting-recipe:
+    crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: FINALTECH_ORDERED_DUST
+      amount: 61
+    2:
+      type: SLIMEFUN
+      id: FINALTECH_UNORDERED_DUST
+      amount: 31
+    3:
+      type: SLIMEFUN
+      id: FINALTECH_ORDERED_DUST
+      amount: 53
+    4:
+      type: SLIMEFUN
+      id: FINALTECH_UNORDERED_DUST
+      amount: 41
+    5:
+      type: SLIMEFUN
+      id: FINALTECH_BUG
+      amount: 13
+    6:
+      type: SLIMEFUN
+      id: FINALTECH_UNORDERED_DUST
+      amount: 43
+    7:
+      type: SLIMEFUN
+      id: FINALTECH_ORDERED_DUST
+      amount: 47
+    8:
+      type: SLIMEFUN
+      id: FINALTECH_UNORDERED_DUST
+      amount: 37
+    9:
+      type: SLIMEFUN
+      id: FINALTECH_ORDERED_DUST
+      amount: 59
+
+
+LOGICTECH_VERSION_INFO:
+  category: logictech_version
+  item-type: CUSTOM
+  item-name: "&c&l版本号"
+  item-lore:
+    - "&7当前逻辑工艺版本："
+    - "&b&mBeta 1.0&6&r测试专用版"
+    - "&7如需汇报bug或者提出新点子"
+    - "&7请找mtl qq:2169419217"
+  item-id: PAPER
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+LOGICTECH_VERSION_INFO_2:
+  category: logictech_version
+  item-type: CUSTOM
+  item-name: "&c&l附属介绍"
+  item-lore:
+    - "&7本附属目标是"
+    - "&7通过提升制造过程的复杂度来"
+    - "&7将复杂产线整合成机器"
+    - "&7换取更少的服务器卡顿和更高的堆叠产量"
+    - "&7让玩家获得更好的游戏体验"
+  item-id: PAPER
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+LOGICTECH_VERSION_INFO_3:
+  category: logictech_version
+  item-type: CUSTOM
+  item-name: "&c&l服务器需求"
+  item-lore:
+    - "&7本附属主要逻辑是基于乱序技艺的"
+    - "&7即使禁用尘埃反应堆也是可以使用的"
+    - "&7并且可以将乱序货运大规模卡服的问题优化"
+    - "&7本附属在FinalTECH(大写)-preview2上开发"
+
+  item-id: PAPER
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+
+
+LOGICTECH_VERSION_UPDATE_1:
+  category: logictech_version
+  item-type: CUSTOM
+  item-name: "&c&lBeta1.0"
+  item-lore:
+    - "&7初步形成了 合成表编写 的逻辑"
+    - "&7初步提出了 一系列基础材料"
+    - "&7初步完成了 乱序一体化 的机器"
+    - "&7初步提出了 附属一体化 中少量机器"
+    - "&7初步完成了 奇点概念化 体系"
+  item-id: PAPER
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+
+LOGICTECH_RECIPE_LCOMPRESSOR:
+  category: logictech_recipetype 
+  item-type: CUSTOM
+  item-name: "&x&e&b&3&3&e&b逻&x&d&d&2&b&d&d辑&x&c&f&2&2&c&f坍&x&c&1&1&a&c&1缩&x&b&3&1&1&b&3器&x&a&5&0&9&a&5配&x&9&7&0&0&9&7方"
+  item-lore:
+    - "&7该物品在逻辑坍缩器中合成"
+  item-id: SKULL87e04b5b252a6f4e6473ea952450a9d8d8db4cd657ffd9b419c25c6c80408f3e
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+LOGICTECH_RECIPE_LASSEMBLER:
+  category: logictech_recipetype 
+  item-type: CUSTOM
+  item-name: "&x&e&b&3&3&e&b逻&x&d&d&2&b&d&d辑&x&c&f&2&2&c&f构&x&c&1&1&a&c&1造&x&b&3&1&1&b&3器&x&a&5&0&9&a&5配&x&9&7&0&0&9&7方"
+  item-lore:
+    - "&7该物品在逻辑构造器中合成"
+  item-id: SKULLd806548fae9bdd93d3bc1c7da736b695cdf3e72ae541e92d6057b95b8427
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+
+LOGICTECH_RECIPE_LSIN:
+  category: logictech_recipetype 
+  item-type: CUSTOM
+  item-name: "&x&e&b&3&3&e&b奇&x&e&1&2&d&e&1点&x&d&6&2&6&d&6概&x&c&b&2&0&c&b念&x&c&1&1&a&c&1化&x&b&7&1&3&b&7工&x&a&c&0&d&a&c艺&x&a&2&0&6&a&2配&x&9&7&0&0&9&7方"
+  item-lore:
+    - "&7该物品在奇点概念化工艺相关机器中合成"
+  item-id: SKULL79cbb4d794da4c600eac20fdd662f421cd456a39167af7bb9e054674e0856d16
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+
+LOGICTECH_MACHINE_PART:
+  category: logictech_basicmaterial
+  item-type: CUSTOM
+  item-name: "&x&e&b&3&3&e&b逻&x&d&a&2&9&d&a辑&x&c&9&1&f&c&9引&x&b&9&1&4&b&9擎&x&a&8&0&a&a&8部&x&9&7&0&0&9&7件"
+  item-lore:
+    - "&7构成逻辑机器的最基础原料"
+    - ""
+    - "&3逻辑工艺材料"
+  item-id: REDSTONE
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    crafting-recipe:
+    1:
+      type: VANILLA
+      id: CRAFTING_TABLE
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: FINALTECH_LINK_TRANSFER
+      amount: 1
+    3:
+      type: VANILLA
+      id: CRAFTING_TABLE
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: FINALTECH_ORDERED_DUST
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: FINALTECH_ITEM_DISMANTLE_TABLE
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: FINALTECH_UNORDERED_DUST
+      amount: 1
+    7:
+      type: VANILLA
+      id: CRAFTING_TABLE
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: FINALTECH_LINE_TRANSFER
+      amount: 1
+    9:
+      type: VANILLA
+      id: CRAFTING_TABLE
+      amount: 1
+
+LOGICTECH_MACHINE_FRAME:
+  category: logictech_basicmaterial
+  item-type: CUSTOM
+  item-name: "&x&e&b&3&3&e&b逻&x&d&a&2&9&d&a辑&x&c&9&1&f&c&9引&x&b&9&1&4&b&9擎&x&a&8&0&a&a&8外&x&9&7&0&0&9&7壳"
+  item-lore:
+    - "&7强大的材料足以支撑逻辑引擎的运行"
+    - ""
+    - "&3逻辑工艺材料"
+  item-id: PURPLE_STAINED_GLASS_PANE
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: LOGICTECH_RECIPE_LCOMPRESSOR
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+
+
+LOGICTECH_INTERPRETER:
+  category: logictech_basicmaterial
+  item-type: CUSTOM
+  item-name: "&x&e&b&3&3&e&b逻&x&d&d&2&b&d&d辑&x&c&f&2&2&c&f引&x&c&1&1&a&c&1擎&x&b&3&1&1&b&3解&x&a&5&0&9&a&5析&x&9&7&0&0&9&7器"
+  item-lore:
+    - "&7构成逻辑机器的最基础原料"
+    - ""
+    - "&3逻辑工艺材料"
+  item-id: GLOWSTONE_DUST
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: FINALTECH_NORMAL_STORAGE_UNIT
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: FINALTECH_NORMAL_STORAGE_UNIT
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: FINALTECH_NORMAL_STORAGE_UNIT
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: FINALTECH_ITEM_DISMANTLE_TABLE
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: FINALTECH_ITEM_DISMANTLE_TABLE
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: FINALTECH_ITEM_DISMANTLE_TABLE
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: FINALTECH_LINE_TRANSFER
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: FINALTECH_LINE_TRANSFER
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: FINALTECH_LINE_TRANSFER
+      amount: 1
+
+
+LOGICTECH_INTERPRETAPI:
+  category: logictech_basicmaterial
+  item-type: CUSTOM
+  item-name: "&x&e&b&3&3&e&b逻&x&d&f&2&c&d&f辑&x&d&3&2&4&d&3引&x&c&7&1&d&c&7擎&x&b&b&1&6&b&b解&x&a&f&0&f&a&f析&x&a&3&0&7&a&3接&x&9&7&0&0&9&7口"
+  item-lore:
+    - "&7用于解析逻辑核心的输出结果"
+    - ""
+    - "&3逻辑工艺材料"
+  item-id: PURPLE_STAINED_GLASS
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: LOGICTECH_RECIPE_LCOMPRESSOR
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+
+
+LOGICTECH_IOPORT:
+  category: logictech_basicmaterial
+  item-type: CUSTOM
+  item-name: "&x&e&b&3&3&e&b逻&x&e&2&2&d&e&2辑&x&d&8&2&8&d&8引&x&c&f&2&2&c&f擎&x&c&6&1&c&c&6智&x&b&c&1&7&b&c能&x&b&3&1&1&b&3货&x&a&a&0&b&a&a运&x&a&0&0&6&a&0通&x&9&7&0&0&9&7道"
+  item-lore:
+    - "&7构成逻辑机器的最基础原料"
+    - ""
+    - "&3逻辑工艺材料"
+  item-id: SKULL4501ef0d5f14dd599f2e8fa15ef75e62e649a1e336fc4ee03bcf0409b87b6869
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: FINALTECH_STATION_TRANSFER
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: FINALTECH_LINK_TRANSFER
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: FINALTECH_LINE_TRANSFER
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: FINALTECH_STATION_TRANSFER
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: FINALTECH_LINK_TRANSFER
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: FINALTECH_LINE_TRANSFER
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: FINALTECH_STATION_TRANSFER
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: FINALTECH_LINK_TRANSFER
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: FINALTECH_LINE_TRANSFER
+      amount: 1
+
+
+
+LOGICTECH_IOCHANNEL:
+  category: logictech_basicmaterial
+  item-type: CUSTOM
+  item-name: "&x&e&b&3&3&e&b逻&x&d&f&2&c&d&f辑&x&d&3&2&4&d&3引&x&c&7&1&d&c&7擎&x&b&b&1&6&b&bI&x&a&f&0&f&a&fO&x&a&3&0&7&a&3通&x&9&7&0&0&9&7道"
+  item-lore:
+    - "&7管理逻辑核心海量的输入输出流"
+    - ""
+    - "&3逻辑工艺材料"
+  item-id: SKULL9774928d51298e7d66aee92aa5d33e442bd4e037324463ff5a5440dce9e13f65
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: LOGICTECH_RECIPE_LCOMPRESSOR
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+
+
+LOGICTECH_SERIALIZATIONCORE_FRAME:
+  category: logictech_basicmaterial
+  item-type: CUSTOM
+  item-name: "&x&e&b&3&3&e&b序&x&d&d&2&b&d&d列&x&c&f&2&2&c&f化&x&c&1&1&a&c&1核&x&b&3&1&1&b&3心&x&a&5&0&9&a&5框&x&9&7&0&0&9&7架"
+  item-lore:
+    - "&7构成序列化核心的基础原料"
+    - ""
+    - "&3逻辑工艺材料"
+  item-id: MAGENTA_STAINED_GLASS_PANE
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: FINALTECH_ITEM_SERIALIZATION_CONSTRUCTOR
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: FINALTECH_ITEM_SERIALIZATION_CONSTRUCTOR
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: FINALTECH_ITEM_SERIALIZATION_CONSTRUCTOR
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: FINALTECH_ITEM_SERIALIZATION_CONSTRUCTOR
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: FINALTECH_ITEM_SERIALIZATION_CONSTRUCTOR
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: FINALTECH_ITEM_SERIALIZATION_CONSTRUCTOR
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: FINALTECH_ITEM_SERIALIZATION_CONSTRUCTOR
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: FINALTECH_ITEM_SERIALIZATION_CONSTRUCTOR
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: FINALTECH_ITEM_SERIALIZATION_CONSTRUCTOR
+      amount: 1
+
+
+LOGICTECH_SERIALIZATIONCORE:
+  category: logictech_basicmaterial
+  item-type: CUSTOM
+  item-name: "&x&e&b&3&3&e&b序&x&d&6&2&6&d&6列&x&c&1&1&a&c&1化&x&a&c&0&d&a&c核&x&9&7&0&0&9&7心"
+  item-lore:
+    - "&7以极快的速率将输入数据序列化"
+    - ""
+    - "&3逻辑工艺材料"
+  item-id: SKULL3d8cd028428e56b9b0fe6bab5a4799ad4a1236599d25120ae5c0dbdaeea884ab
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: LOGICTECH_RECIPE_LCOMPRESSOR
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+LOGICTECH_PARADOX:
+  category: logictech_basicmaterial
+  item-type: CUSTOM
+  item-name: "&x&e&b&3&3&e&b逻&x&c&f&2&2&c&f辑&x&b&3&1&1&b&3悖&x&9&7&0&0&9&7论"
+  item-lore:
+    - "&x&5&5&f&f&5&5&k1&x&5&5&f&f&6&3&k1&x&5&5&f&f&7&1&k1&x&5&5&f&f&8&0&k1&x&5&5&f&f&8&e&k1&x&5&5&f&f&9&c&k1&x&5&5&f&f&a&a&k1&x&5&5&f&f&b&8&k1&x&5&5&f&f&c&6&k1&x&5&5&f&f&d&4&k1&x&5&5&f&f&e&3&k1&x&5&5&f&f&f&1&k1&x&5&5&f&f&f&f&k1"
+    - ""
+    - "&3逻辑工艺终极材料"
+  item-id: BONE_MEAL
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+
+LOGICTECH_LCORE_MERGE:
+  category: logictech_basicmaterial
+  item-type: CUSTOM
+  item-name: "&x&e&b&3&3&e&b逻&x&e&1&2&d&e&1辑&x&d&6&2&6&d&6引&x&c&b&2&0&c&b擎&x&c&1&1&a&c&1核&x&b&7&1&3&b&7心&x&a&c&0&d&a&c-&x&a&2&0&6&a&2融&x&9&7&0&0&9&7合"
+  item-lore:
+    - "&x&5&5&f&f&5&5古&x&5&5&f&f&6&8希&x&5&5&f&f&7&b腊&x&5&5&f&f&8&e掌&x&5&5&f&f&a&1管&x&5&5&f&f&b&3合&x&5&5&f&f&c&6成&x&5&5&f&f&d&9&x&5&5&f&f&e&c的&x&5&5&f&f&f&f神"
+    - ""
+    - "&3逻辑工艺核心"
+  item-id: SKULL391255206efac82b7e5ed6ce4b1ae5669ce55d087099299811007148bd1c8ece
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: LOGICTECH_MACHINE_FRAME
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: RESOURCE_SYNTHESIZER
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: LOGICTECH_MACHINE_FRAME
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: PROGRAMMABLE_ANDROID_3
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: CARGO_MANAGER
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: PROGRAMMABLE_ANDROID_3
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: LOGICTECH_MACHINE_FRAME
+      amount: 1
+    8:
+      type: VANILLA
+      id: CRAFTING_TABLE
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: LOGICTECH_MACHINE_FRAME
+      amount: 1
+
+
+
+LOGICTECH_LCORE_INVERSE:
+  category: logictech_basicmaterial
+  item-type: CUSTOM
+  item-name: "&x&e&b&3&3&e&b逻&x&e&1&2&d&e&1辑&x&d&6&2&6&d&6引&x&c&b&2&0&c&b擎&x&c&1&1&a&c&1核&x&b&7&1&3&b&7心&x&a&c&0&d&a&c-&x&a&2&0&6&a&2反&x&9&7&0&0&9&7向"
+  item-lore:
+    - '&x&5&5&f&f&5&5古&x&5&5&f&f&6&6希&x&5&5&f&f&7&7腊&x&5&5&f&f&8&8掌&x&5&5&f&f&9&9管&x&5&5&f&f&a&a反&x&5&5&f&f&b&b向&x&5&5&f&f&c&c合&x&5&5&f&f&d&d成&x&5&5&f&f&e&e的&x&5&5&f&f&f&f神'
+    - ""
+    - "&3逻辑工艺核心"
+  item-id: SKULL391255206efac82b7e5ed6ce4b1ae5669ce55d087099299811007148bd1c8ece
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: LOGICTECH_MACHINE_FRAME
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: FINALTECH_ITEM_DISMANTLE_TABLE
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: LOGICTECH_MACHINE_FRAME
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: LOGICTECH_INTERPRETER
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: PROGRAMMABLE_ANDROID_3
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: LOGICTECH_INTERPRETER
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: LOGICTECH_MACHINE_FRAME
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: FINALTECH_ITEM_DISMANTLE_TABLE
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: LOGICTECH_MACHINE_FRAME
+      amount: 1
+
+
+LOGICTECH_LCORE_COMPRESS:
+  category: logictech_basicmaterial
+  item-type: CUSTOM
+  item-name: "&x&e&b&3&3&e&b逻&x&e&1&2&d&e&1辑&x&d&6&2&6&d&6引&x&c&b&2&0&c&b擎&x&c&1&1&a&c&1核&x&b&7&1&3&b&7心&x&a&c&0&d&a&c-&x&a&2&0&6&a&2压&x&9&7&0&0&9&7缩"
+  item-lore:
+    - "&x&5&5&f&f&5&5古&x&5&5&f&f&6&6希&x&5&5&f&f&7&7腊&x&5&5&f&f&8&8掌&x&5&5&f&f&9&9管&x&5&5&f&f&a&a机&x&5&5&f&f&b&b器&x&5&5&f&f&c&c堆&x&5&5&f&f&d&d叠&x&5&5&f&f&e&e的&x&5&5&f&f&f&f神"
+    - ""
+    - "&3逻辑工艺核心"
+  item-id: SKULL391255206efac82b7e5ed6ce4b1ae5669ce55d087099299811007148bd1c8ece
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: LOGICTECH_MACHINE_FRAME
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: FINALTECH_LINE_TRANSFER
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: LOGICTECH_MACHINE_FRAME
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: FINALTECH_STATION_TRANSFER
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: CARGO_MANAGER
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: FINALTECH_STATION_TRANSFER
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: LOGICTECH_MACHINE_FRAME
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: FINALTECH_LINE_TRANSFER
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: LOGICTECH_MACHINE_FRAME
+      amount: 1
+
+
+
+LOGICTECH_LCORE_COMMAND:
+  category: logictech_basicmaterial
+  item-type: CUSTOM
+  item-name: "&x&e&b&3&3&e&b逻&x&e&1&2&d&e&1辑&x&d&6&2&6&d&6引&x&c&b&2&0&c&b擎&x&c&1&1&a&c&1核&x&b&7&1&3&b&7心&x&a&c&0&d&a&c-&x&a&2&0&6&a&2指&x&9&7&0&0&9&7令"
+  item-lore:
+    - "&x&5&5&f&f&5&5古&x&5&5&f&f&6&a希&x&5&5&f&f&8&0腊&x&5&5&f&f&9&5掌&x&5&5&f&f&a&a管&x&5&5&f&f&b&f指&x&5&5&f&f&d&4令&x&5&5&f&f&e&a的&x&5&5&f&f&f&f神"
+    - ""
+    - "&3逻辑工艺核心"
+  item-id: SKULL391255206efac82b7e5ed6ce4b1ae5669ce55d087099299811007148bd1c8ece
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: LOGICTECH_MACHINE_FRAME
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: LOGICTECH_MACHINE_FRAME
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: HT_MODULE_1
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: LOGICTECH_PARADOX
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: HM_CHAOPING_CIRCUIT_BOARD
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: LOGICTECH_MACHINE_FRAME
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: LOGICTECH_MACHINE_FRAME
+      amount: 1
+
+
+LOGICTECH_VIRTUALSPACE:
+  category: logictech_basicmaterial
+  item-type: CUSTOM
+  item-name: "&x&e&b&3&3&e&b逻&x&c&f&2&2&c&f辑&x&b&3&1&1&b&3空&x&9&7&0&0&9&7间"
+  item-lore:
+    - "&7处于虚实之间的空间"
+    - "&7可以容纳和监管海量机器"
+    - ""
+    - "&3逻辑工艺核心"
+  item-id: SKULLf2fdb5a1477cb38109030fc9e41691668e4fe05c86aad46c6ad01f4ce4dabd52
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: LOGICTECH_RECIPE_LASSEMBLER
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+
+
+LOGICTECH_CRAFTPART:
+  category: logictech_basicmaterial
+  item-type: CUSTOM
+  item-name: "&x&e&b&3&3&e&b逻&x&d&a&2&9&d&a辑&x&c&9&1&f&c&9合&x&b&9&1&4&b&9成&x&a&8&0&a&a&8模&x&9&7&0&0&9&7块"
+  item-lore:
+    - "&7对逻辑产物进行预合并"
+    - "&7以减少实际输出物的复杂度"
+    - ""
+    - "&3逻辑工艺核心"
+  item-id: SKULLd600f0d2b2ab524b219e0fa808c80b26e7236780681867a0617f73ce3671cd2f
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: LOGICTECH_RECIPE_LASSEMBLER
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+
+LOGICTECH_VIRTUALOPERATOR:
+  category: logictech_basicmaterial
+  item-type: CUSTOM
+  item-name: "&x&e&b&3&3&e&b逻&x&d&a&2&9&d&a辑&x&c&9&1&f&c&9执&x&b&9&1&4&b&9行&x&a&8&0&a&a&8模&x&9&7&0&0&9&7块"
+  item-lore:
+    - "&7可以模拟出类人的操作行为"
+    - "&7在逻辑空间中执行复杂操作"
+    - ""
+    - "&3逻辑工艺核心"
+  item-id: SKULL14628301fea50c65f9c340116a28d035b665d2503ec1395f191862db22ec76f1
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: LOGICTECH_RECIPE_LASSEMBLER
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+
+LOGICTECH_VIRTUALEND:
+  category: logictech_basicmaterial
+  item-type: CUSTOM
+  item-name: "&x&e&b&3&3&e&b虚&x&c&f&2&2&c&f拟&x&b&3&1&1&b&3末&x&9&7&0&0&9&7地"
+  item-lore:
+    - "&7在逻辑空间中搭建的末地环境"
+    - ""
+    - "&3逻辑工艺核心"
+  item-id: SKULLf5f83196cfdc8276324da24d4f9514181d973551dbe276bae30e68d3987356d3
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: LOGICTECH_VIRTUALSPACE
+      amount: 1
+    2:
+      type: NONE
+      id: VOID_INGOT
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: LOGICTECH_VIRTUALSPACE
+      amount: 1
+    4:
+      type: NONE
+      id: VOID_INGOT
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: LOGICTECH_COMPRESSEDBUG
+      amount: 1
+    6:
+      type: NONE
+      id: VOID_INGOT
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: LOGICTECH_VIRTUALSPACE
+      amount: 1
+    8:
+      type: VANILLA
+      id: END_PORTAL_FRAME
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: LOGICTECH_VIRTUALSPACE
+      amount: 1
+
+
+
+
+LOGICTECH_LCPU_DUSTYITI:
+  category: logictech_basicmaterial
+  item-type: CUSTOM
+  item-name: "&x&e&b&3&3&e&b逻&x&e&3&2&e&e&3辑&x&d&c&2&a&d&c编&x&d&4&2&5&d&4码&x&c&c&2&0&c&c - &x&c&5&1&c&c&5尘&x&b&d&1&7&b&d埃&x&b&6&1&3&b&6一&x&a&e&0&e&a&e体&x&a&6&0&9&a&6化&x&9&f&0&5&9&f生&x&9&7&0&0&9&7产"
+  item-lore:
+    - "&7存储着某种工艺的运行逻辑..."
+    - "&x&e&b&3&3&e&b尘&x&d&f&2&c&d&f埃&x&d&3&2&4&d&3是&x&c&7&1&d&c&7怎&x&b&b&1&6&b&b样&x&a&f&0&f&a&f炼&x&a&3&0&7&a&3成&x&9&7&0&0&9&7的"
+    - ""
+    - "&3逻辑工艺核心"
+  item-id: SKULL93e2f779147bc025487b27a37b7fc516d7489c589df97016eb8dc0f54d3bf29e
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: LOGICTECH_RECIPE_LASSEMBLER
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+
+LOGICTECH_LCPU_STONEBAIPIAO:
+  category: logictech_basicmaterial
+  item-type: CUSTOM
+  item-name: "&x&e&b&3&3&e&b逻&x&e&3&2&e&e&3辑&x&d&c&2&a&d&c编&x&d&4&2&5&d&4码&x&c&c&2&0&c&c-&x&c&5&1&c&c&5圆&x&b&d&1&7&b&d石&x&b&6&1&3&b&6白&x&a&e&0&e&a&e嫖&x&a&6&0&9&a&6流&x&9&f&0&5&9&f水&x&9&7&0&0&9&7线"
+  item-lore:
+    - "&7存储着某种工艺的运行逻辑..."
+    - "&x&e&b&3&3&e&b告&x&e&5&3&0&e&5诉&x&e&0&2&c&e&0我&x&d&a&2&9&d&a,&x&d&5&2&5&d&5什&x&c&f&2&2&c&f么&x&c&9&1&f&c&9叫&x&c&4&1&b&c&48&x&b&e&1&8&b&e=&x&b&9&1&4&b&99&x&b&3&1&1&b&3啊&x&a&d&0&e&a&d(&x&a&8&0&a&a&8战&x&a&2&0&7&a&2术&x&9&d&0&3&9&d后&x&9&7&0&0&9&7仰"
+    - ""
+    - "&3逻辑工艺核心"
+  item-id: SKULL93e2f779147bc025487b27a37b7fc516d7489c589df97016eb8dc0f54d3bf29e
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: LOGICTECH_RECIPE_LASSEMBLER
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+
+
+LOGICTECH_FINALTECH_ITEM_DESERIALIZE_PARSER_FASHION:
+  category: logictech_finaltechmore
+  item-type: SAVEDITEM
+  item-name: "&x&e&b&3&3&e&b反&x&e&3&2&e&e&3序&x&d&a&2&9&d&a列&x&d&2&2&4&d&2化&x&c&9&1&f&c&9解&x&c&1&1&a&c&1析&x&b&9&1&4&b&9器&x&b&0&0&f&b&0[&x&a&8&0&a&a&8粉色&x&9&f&0&5&9&f款&x&9&7&0&0&9&7]"
+  item-lore:
+    - "一次性反序列化解析器皮肤"
+    - "不用担心再长紫水晶簇了"
+    - ""
+    - "&3逻辑工艺机器"
+  item-id: LOGICTECH_FINALTECH_ITEM_DESERIALIZE_PARSER_FASHION
+  item-amount: 1
+  placeable: true
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: FINALTECH_ITEM_DESERIALIZE_PARSER
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+LOGICTECH_FINALTECH_ITEM_DISMANTLE_TABLE_OLD:
+  category: logictech_finaltechmore
+  item-type: SAVEDITEM
+  item-name: "&x&e&b&3&3&e&b反&x&e&3&2&e&e&3序&x&d&a&2&9&d&a列&x&d&2&2&4&d&2化&x&c&9&1&f&c&9解&x&c&1&1&a&c&1析&x&b&9&1&4&b&9器&x&b&0&0&f&b&0[&x&a&8&0&a&a&8粉色&x&9&f&0&5&9&f款&x&9&7&0&0&9&7]"
+  item-lore:
+    - "一次性反序列化解析器皮肤"
+    - "不用担心再长紫水晶簇了"
+    - ""
+    - "&3逻辑工艺机器"
+  item-id: LOGICTECH_FINALTECH_ITEM_DISMANTLE_TABLE_OLD
+  item-amount: 1
+  placeable: true
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: FINALTECH_ITEM_DISMANTLE_TABLE
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+LOGICTECH_FINALTECH_ITEM_DISMANTLE_TABLE_NEW:
+  category: logictech_finaltechmore
+  item-type: SAVEDITEM
+  item-name: "&x&e&b&3&3&e&b反&x&e&3&2&e&e&3序&x&d&a&2&9&d&a列&x&d&2&2&4&d&2化&x&c&9&1&f&c&9解&x&c&1&1&a&c&1析&x&b&9&1&4&b&9器&x&b&0&0&f&b&0[&x&a&8&0&a&a&8粉色&x&9&f&0&5&9&f款&x&9&7&0&0&9&7]"
+  item-lore:
+    - "一次性反序列化解析器皮肤"
+    - "不用担心再长紫水晶簇了"
+    - ""
+    - "&3逻辑工艺机器"
+  item-id: LOGICTECH_FINALTECH_ITEM_DISMANTLE_TABLE_NEW
+  item-amount: 1
+  placeable: true
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    crafting-recipe:
+    2:
+      type: SLIMEFUN
+      id: FINALTECH_ITEM_DISMANTLE_TABLE
+      amount: 1
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+
+
+LOGIC_LSIN_SOLARPANEL:
+  category: logictech_moresingularity
+  item-type: CUSTOM
+  item-name: "&x&e&b&3&3&e&b概&x&d&6&2&6&d&6念&x&c&1&1&a&c&1奇&x&a&c&0&d&a&c点&x&9&7&0&0&9&7 - &b光伏电池奇点"
+  item-lore:
+    - "&7概念化奇点系列"
+    - ""
+    - "&3逻辑工艺材料"
+  item-id: DAYLIGHT_DETECTOR
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: LOGICTECH_RECIPE_LSIN
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+
+LOGIC_LSIN_ELECTROMAGNET:
+  category: logictech_moresingularity
+  item-type: CUSTOM
+  item-name: "&x&e&b&3&3&e&b概&x&d&6&2&6&d&6念&x&c&1&1&a&c&1奇&x&a&c&0&d&a&c点&x&9&7&0&0&9&7 - &b电磁铁奇点"
+  item-lore:
+    - "&7概念化奇点系列"
+    - ""
+    - "&3逻辑工艺材料"
+  item-id: SKULLaba8ebc4c6a81730947499bf7e1d5e73fed6c1bb2c051e96d35eb16d24610e7
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: LOGICTECH_RECIPE_LSIN
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+
+
+LOGIC_LSIN_CARBONADO:
+  category: logictech_moresingularity
+  item-type: CUSTOM
+  item-name: "&x&e&b&3&3&e&b概&x&d&6&2&6&d&6念&x&c&1&1&a&c&1奇&x&a&c&0&d&a&c点&x&9&7&0&0&9&7 - &b黑色钻石奇点"
+  item-lore:
+    - "&7概念化奇点系列"
+    - ""
+    - "&3逻辑工艺材料"
+  item-id: SKULL647afb70af5f7471a31cc7c145a00876ab9334f6a753d9b4ba4731bc6c1fe6b
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: LOGICTECH_RECIPE_LSIN
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+
+
+
+LOGIC_LSIN_BLISTINGINGOT:
+  category: logictech_moresingularity
+  item-type: CUSTOM
+  item-name: "&x&e&b&3&3&e&b概&x&d&6&2&6&d&6念&x&c&1&1&a&c&1奇&x&a&c&0&d&a&c点&x&9&7&0&0&9&7 - &b起泡锭奇点"
+  item-lore:
+    - "&7概念化奇点系列"
+    - ""
+    - "&3逻辑工艺材料"
+  item-id: GOLD_INGOT
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: LOGICTECH_RECIPE_LSIN
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+
+LOGIC_LSIN_REINFORCEDALLOY:
+  category: logictech_moresingularity
+  item-type: CUSTOM
+  item-name: "&x&e&b&3&3&e&b概&x&d&6&2&6&d&6念&x&c&1&1&a&c&1奇&x&a&c&0&d&a&c点&x&9&7&0&0&9&7 - &b强化合金奇点"
+  item-lore:
+    - "&7概念化奇点系列"
+    - ""
+    - "&3逻辑工艺材料"
+  item-id: IRON_INGOT
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: LOGICTECH_RECIPE_LSIN
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+
+LOGIC_LSIN_REDSTONEALLOY:
+  category: logictech_moresingularity
+  item-type: CUSTOM
+  item-name: "&x&e&b&3&3&e&b概&x&d&6&2&6&d&6念&x&c&1&1&a&c&1奇&x&a&c&0&d&a&c点&x&9&7&0&0&9&7 - &b红石合金奇点"
+  item-lore:
+    - "&7概念化奇点系列"
+    - ""
+    - "&3逻辑工艺材料"
+  item-id: BRICK
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: LOGICTECH_RECIPE_LSIN
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+
+LOGIC_LSIN_MACHINECIRCUIT:
+  category: logictech_moresingularity
+  item-type: CUSTOM
+  item-name: "&x&e&b&3&3&e&b概&x&d&6&2&6&d&6念&x&c&1&1&a&c&1奇&x&a&c&0&d&a&c点&x&9&7&0&0&9&7 - &b机器电路奇点"
+  item-lore:
+    - "&7概念化奇点系列"
+    - ""
+    - "&3逻辑工艺材料"
+  item-id: GOLD_INGOT
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: LOGICTECH_RECIPE_LSIN
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+
+LOGIC_LSIN_MAGSTEEL:
+  category: logictech_moresingularity
+  item-type: CUSTOM
+  item-name: "&x&e&b&3&3&e&b概&x&d&6&2&6&d&6念&x&c&1&1&a&c&1奇&x&a&c&0&d&a&c点&x&9&7&0&0&9&7 - &b磁钢奇点"
+  item-lore:
+    - "&7概念化奇点系列"
+    - ""
+    - "&3逻辑工艺材料"
+  item-id: NETHERITE_SCRAP
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: LOGICTECH_RECIPE_LSIN
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+  
+LOGIC_LSIN_MACHINEPLATE:
+  category: logictech_moresingularity
+  item-type: CUSTOM
+  item-name: "&x&e&b&3&3&e&b概&x&d&6&2&6&d&6念&x&c&1&1&a&c&1奇&x&a&c&0&d&a&c点&x&9&7&0&0&9&7 - &b机器板块奇点"
+  item-lore:
+    - "&7概念化奇点系列"
+    - ""
+    - "&3逻辑工艺材料"
+  item-id: PAPER
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: LOGICTECH_RECIPE_LSIN
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+
+LOGIC_LSIN_VOIDINGOT:
+  category: logictech_moresingularity
+  item-type: CUSTOM
+  item-name: "&x&e&b&3&3&e&b概&x&d&6&2&6&d&6念&x&c&1&1&a&c&1奇&x&a&c&0&d&a&c点&x&9&7&0&0&9&7 - &b虚空奇点"
+  item-lore:
+    - "&7概念化奇点系列"
+    - ""
+    - "&3逻辑工艺材料"
+  item-id: NETHERITE_INGOT
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: LOGICTECH_RECIPE_LSIN
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+LOGIC_LSIN_MAGNONIUM:
+  category: logictech_moresingularity
+  item-type: CUSTOM
+  item-name: "&x&e&b&3&3&e&b概&x&d&6&2&6&d&6念&x&c&1&1&a&c&1奇&x&a&c&0&d&a&c点&x&9&7&0&0&9&7 - &b磁金奇点"
+  item-lore:
+    - "&7概念化奇点系列"
+    - ""
+    - "&3逻辑工艺材料"
+  item-id: NETHER_BRICK
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: LOGICTECH_RECIPE_LSIN
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+LOGIC_LSIN_INFINITYMACHINECIRCUIT:
+  category: logictech_moresingularity
+  item-type: CUSTOM
+  item-name: "&x&e&b&3&3&e&b概&x&d&6&2&6&d&6念&x&c&1&1&a&c&1奇&x&a&c&0&d&a&c点&x&9&7&0&0&9&7 - &b无尽晶格奇点"
+  item-lore:
+    - "&7概念化奇点系列"
+    - ""
+    - "&3逻辑工艺材料"
+  item-id: DIAMOND
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: LOGICTECH_RECIPE_LSIN
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+
+
+LOGIC_LSIN_INFINITYMACHINECORE:
+  category: logictech_moresingularity
+  item-type: CUSTOM
+  item-name: "&x&e&b&3&3&e&b概&x&d&6&2&6&d&6念&x&c&1&1&a&c&1奇&x&a&c&0&d&a&c点&x&9&7&0&0&9&7 - &b无尽核心奇点"
+  item-lore:
+    - "&7概念化奇点系列"
+    - ""
+    - "&3逻辑工艺材料"
+  item-id: DIAMOND_BLOCK
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: SMELTERY
+  crafting-recipe:
+    crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: INFINITY_SINGULARITY
+      amount: 9
+    2:
+      type: SLIMEFUN
+      id: LOGIC_LSIN_MACHINECIRCUIT
+      amount: 42
+    3:
+      type: SLIMEFUN
+      id: LOGIC_LSIN_MACHINEPLATE
+      amount: 16
+    4:
+      type: SLIMEFUN
+      id: LOGIC_LSIN_REINFORCEDALLOY
+      amount: 36
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+
+
+LOGIC_LSIN_SOLARGENERATOR1:
+  category: logictech_moresingularity
+  item-type: CUSTOM
+  item-name: "&x&e&b&3&3&e&b概&x&d&6&2&6&d&6念&x&c&1&1&a&c&1奇&x&a&c&0&d&a&c点&x&9&7&0&0&9&7 - &b初级太阳能发电机奇点"
+  item-lore:
+    - "&7概念化奇点系列"
+    - ""
+    - "&3逻辑工艺材料"
+  item-id: DAYLIGHT_DETECTOR
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: SMELTERY
+  crafting-recipe:
+    crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: LOGIC_LSIN_SOLARPANEL
+      amount: 3
+    3:
+      type: SLIMEFUN
+      id: LOGIC_LSIN_ELECTROMAGNET
+      amount: 2
+    2:
+      type: SLIMEFUN
+      id: ALUMINUM_SINGULARITY
+      amount: 2
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+
+
+LOGIC_LSIN_SOLARGENERATOR2:
+  category: logictech_moresingularity
+  item-type: CUSTOM
+  item-name: "&x&e&b&3&3&e&b概&x&d&6&2&6&d&6念&x&c&1&1&a&c&1奇&x&a&c&0&d&a&c点&x&9&7&0&0&9&7 - &b中级太阳能发电机奇点"
+  item-lore:
+    - "&7概念化奇点系列"
+    - ""
+    - "&3逻辑工艺材料"
+  item-id: DAYLIGHT_DETECTOR
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: SMELTERY
+  crafting-recipe:
+    crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: LOGIC_LSIN_SOLARGENERATOR1
+      amount: 64
+    2:
+      type: SLIMEFUN
+      id: ALUMINUM_SINGULARITY
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: LOGIC_LSIN_ELECTROMAGNET
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: LOGIC_LSIN_BLISTINGINGOT
+      amount: 5
+    5:
+      type: SLIMEFUN
+      id: LOGIC_LSIN_CARBONADO
+      amount: 6
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+
+
+LOGIC_LSIN_SOLARGENERATOR3:
+  category: logictech_moresingularity
+  item-type: CUSTOM
+  item-name: "&x&e&b&3&3&e&b概&x&d&6&2&6&d&6念&x&c&1&1&a&c&1奇&x&a&c&0&d&a&c点&x&9&7&0&0&9&7 - &b终极太阳能发电机奇点"
+  item-lore:
+    - "&7概念化奇点系列"
+    - ""
+    - "&3逻辑工艺材料"
+  item-id: DAYLIGHT_DETECTOR
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: SMELTERY
+  crafting-recipe:
+    crafting-recipe:
+    2:
+      type: SLIMEFUN
+      id: LOGIC_LSIN_MACHINECIRCUIT
+      amount: 46
+    1:
+      type: SLIMEFUN
+      id: LOGIC_LSIN_SOLARGENERATOR2
+      amount: 4
+    3:
+      type: SLIMEFUN
+      id: LOGIC_LSIN_MACHINEPLATE
+      amount: 8
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+
+
+
+LOGIC_LSIN_INFINITYPANEL:
+  category: logictech_moresingularity
+  item-type: CUSTOM
+  item-name: "&x&e&b&3&3&e&b概&x&d&6&2&6&d&6念&x&c&1&1&a&c&1奇&x&a&c&0&d&a&c点&x&9&7&0&0&9&7 - &b无尽电机奇点"
+  item-lore:
+    - "&7概念化奇点系列"
+    - ""
+    - "&3逻辑工艺材料"
+  item-id: LIGHT_BLUE_GLAZED_TERRACOTTA
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: SMELTERY
+  crafting-recipe:
+    crafting-recipe:
+    2:
+      type: SLIMEFUN
+      id: LOGIC_LSIN_SOLARGENERATOR3
+      amount: 30
+    1:
+      type: SLIMEFUN
+      id: LOGIC_LSIN_INFINITYMACHINECORE
+      amount: 2
+    3:
+      type: SLIMEFUN
+      id: INFINITY_SINGULARITY
+      amount: 10
+    4:
+      type: SLIMEFUN
+      id: LOGIC_LSIN_INFINITYMACHINECIRCUIT
+      amount: 2
+    5:
+      type: SLIMEFUN
+      id: LOGIC_LSIN_VOIDINGOT
+      amount: 8
+    6:
+      type: SLIMEFUN
+      id: LOGIC_LSIN_MAGNONIUM
+      amount: 8
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+
+
+
+LOGIC_LSIN_CAPACITOR:
+  category: logictech_moresingularity
+  item-type: CUSTOM
+  item-name: "&x&e&b&3&3&e&b概&x&d&6&2&6&d&6念&x&c&1&1&a&c&1奇&x&a&c&0&d&a&c点&x&9&7&0&0&9&7 - &b电容奇点"
+  item-lore:
+    - "&7概念化奇点系列"
+    - ""
+    - "&3逻辑工艺材料"
+  item-id: SKULL91361e576b493cbfdfae328661cedd1add55fab4e5eb418b92cebf6275f8bb4
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: SMELTERY
+  crafting-recipe:
+    crafting-recipe:
+    2:
+      type: SLIMEFUN
+      id: LOGIC_LSIN_CARBONADO
+      amount: 4
+    1:
+      type: SLIMEFUN
+      id: LOGIC_LSIN_REDSTONEALLOY
+      amount: 11
+    3:
+      type: SLIMEFUN
+      id: LOGIC_LSIN_REINFORCEDALLOY
+      amount: 8
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+
+LOGIC_LSIN_CARGOMOTOR:
+  category: logictech_moresingularity
+  item-type: CUSTOM
+  item-name: "&x&e&b&3&3&e&b概&x&d&6&2&6&d&6念&x&c&1&1&a&c&1奇&x&a&c&0&d&a&c点&x&9&7&0&0&9&7 - &b货运马达奇点"
+  item-lore:
+    - "&7概念化奇点系列"
+    - ""
+    - "&3逻辑工艺材料"
+  item-id: SKULL8e47f99abcd645a3ef1122c9d850a981979f431ba293255c1680e91ab117ed35
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: LOGICTECH_RECIPE_LSIN
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+
+LOGIC_LSIN_BASICCIRCUITBOARD:
+  category: logictech_moresingularity
+  item-type: CUSTOM
+  item-name: "&x&e&b&3&3&e&b概&x&d&6&2&6&d&6念&x&c&1&1&a&c&1奇&x&a&c&0&d&a&c点&x&9&7&0&0&9&7 - &b电路板奇点"
+  item-lore:
+    - "&7概念化奇点系列"
+    - ""
+    - "&3逻辑工艺材料"
+  item-id: ACTIVATOR_RAIL
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: LOGICTECH_RECIPE_LSIN
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+
+
+LOGIC_LSIN_FURNACE:
+  category: logictech_moresingularity
+  item-type: CUSTOM
+  item-name: "&x&e&b&3&3&e&b概&x&d&6&2&6&d&6念&x&c&1&1&a&c&1奇&x&a&c&0&d&a&c点&x&9&7&0&0&9&7 - &b熔炼奇点"
+  item-lore:
+    - "&7概念化奇点系列"
+    - ""
+    - "&3逻辑工艺材料"
+  item-id: FURNACE
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: SMELTERY
+  crafting-recipe:
+    crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: LOGIC_LSIN_BASICCIRCUITBOARD
+      amount: 12
+    2:
+      type: SLIMEFUN
+      id: LOGIC_LSIN_CARBONADO
+      amount: 4
+    3:
+      type: SLIMEFUN
+      id: LOGIC_LSIN_REINFORCEDALLOY
+      amount: 8
+    4:
+      type: SLIMEFUN
+      id: LOGIC_LSIN_ELECTROMAGNET
+      amount: 40
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1

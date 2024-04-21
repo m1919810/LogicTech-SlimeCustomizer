@@ -1,0 +1,13 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3463
+  type: MAGENTA_GLAZED_TERRACOTTA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"italic":false,"extra":[{"text":""},{"color":"#CC98E2","text":"反"},{"color":"#CA9DDF","text":"序"},{"color":"#C9A3DC","text":"列"},{"color":"#C8A9D9","text":"化"},{"color":"#C6AED6","text":"解"},{"color":"#C5B4D3","text":"析"},{"color":"#C4BAD1","text":"器
+      [粉色款"},{"text":"]"}],"text":""}'
+    lore:
+    - '{"italic":false,"color":"white","extra":[{"text":""},{"color":"gray","text":"永不长毛"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: FINALTECH_ITEM_DESERIALIZE_PARSER

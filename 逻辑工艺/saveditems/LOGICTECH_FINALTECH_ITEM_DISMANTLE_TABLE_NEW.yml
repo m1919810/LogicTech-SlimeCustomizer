@@ -1,0 +1,13 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3463
+  type: WAXED_CUT_COPPER
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"italic":false,"extra":[{"text":""},{"color":"#BBF4EA","text":"反"},{"color":"#C2DCE2","text":"向"},{"color":"#C9C5DB","text":"合"},{"color":"#D0ADD4","text":"成"},{"color":"#D896CD","text":"台
+      [摩登款]"}],"text":""}'
+    lore:
+    - '{"italic":false,"color":"white","extra":[{"text":""},{"color":"gray","text":"永不掉色"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: FINALTECH_ITEM_DISMANTLE_TABLE

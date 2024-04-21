@@ -1,0 +1,456 @@
+LOGICTECH_VOIDINGOT_BAOFAYI1:
+  category: logictech_slimefunmore
+  item-name: '&x&e&b&3&3&e&b虚&x&d&f&2&c&d&f空&x&d&3&2&4&d&3锭&x&c&7&1&d&c&7爆&x&b&b&1&6&b&b发&x&a&f&0&f&a&f仪&x&a&3&0&7&a&3 - &x&9&7&0&0&9&7I'
+  item-lore:
+  - '&7自动化生产虚空锭'
+  - ''
+  - "&3逻辑工艺机器" 
+  block-type: SKULL1fac8a0c13a5a3674760a8f5e3d1a2340adebbc1a58653bee9568324a1eb33ca
+  progress-bar-item: CUT_COPPER
+  stats:
+    energy-consumption: 3777
+    energy-buffer: 20000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: HAIMAN_VOID_INGOT_PRODUCER
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: HAIMAN_VOID_INGOT_PRODUCER
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: HAIMAN_VOID_INGOT_PRODUCER
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: HAIMAN_VOID_INGOT_PRODUCER
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: LOGICTECH_LCORE_INVERSE
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: HAIMAN_VOID_INGOT_PRODUCER
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: HAIMAN_VOID_INGOT_PRODUCER
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: HAIMAN_VOID_INGOT_PRODUCER
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: HAIMAN_VOID_INGOT_PRODUCER
+      amount: 1
+  output:
+    tick-rate: 2
+    type: SLIMEFUN
+    id: VOID_INGOT
+    amount: 1
+LOGICTECH_BUGGENERATOR_1:
+  category: logictech_finaltechmore
+  item-name: '&x&e&b&3&3&e&bB&x&d&f&2&c&d&fU&x&d&3&2&4&d&3G&x&c&7&1&d&c&7爆&x&b&b&1&6&b&b发&x&a&f&0&f&a&f仪&x&a&3&0&7&a&3 - &x&9&7&0&0&9&7I'
+  item-lore:
+  - '&7自动化生产锟斤拷'
+  - '&7真是太可怕了'
+  - ''
+  - "&3逻辑工艺机器" 
+  block-type: SKULLe5c0358fb64eaac6db69a857f8987b5197fcea72609c060a8628da92266fd592
+  item-amount: 1
+  stats:
+    energy-consumption: 257
+    energy-buffer: 2500
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: LOGICTECH_ORDERFIELD
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: LOGICTECH_INTERPRETER
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: LOGICTECH_INTERPRETER
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: HAIMAN_VOID_INGOT_PRODUCER
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: LOGICTECH_IOPORT
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: FINALTECH_EQUIVALENT_EXCHANGE_TABLE
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: INFINITE_VOID_HARVESTER
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: HAIMAN_VOID_INGOT_PRODUCER
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: LOGICTECH_ORDERFIELD
+      amount: 1
+  output:
+    tick-rate: 360
+    type: SLIMEFUN
+    id: FINALTECH_BUG
+    amount: 8
+
+
+
+LOGICTECH_BUGGENERATOR_2:
+  category: logictech_finaltechmore
+  item-name: '&x&e&b&3&3&e&bB&x&d&f&2&c&d&fU&x&d&3&2&4&d&3G&x&c&7&1&d&c&7爆&x&b&b&1&6&b&b发&x&a&f&0&f&a&f仪&x&a&3&0&7&a&3 - &x&9&7&0&0&9&7II'
+  item-lore:
+  - '&7自动化生产锟斤拷'
+  - '&7还不赶紧debug'
+  - ''
+  - "&3逻辑工艺机器" 
+  block-type: SKULLe5c0358fb64eaac6db69a857f8987b5197fcea72609c060a8628da92266fd592
+  item-amount: 1
+  stats:
+    energy-consumption: 2346
+    energy-buffer: 10000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: LOGICTECH_MACHINE_FRAME
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: LOGICTECH_IOPORT
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: LOGICTECH_INTERPRETER
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: INFINITY_ALL_IN_ONE_MACHINE_3
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: LOGICTECH_VIRTUALOPERATOR
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: FINALTECH_EQUIVALENT_EXCHANGE_TABLE
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: INFINITY_ALL_IN_ONE_MACHINE_3
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: INFINITY_ALL_IN_ONE_MACHINE_3
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: LOGICTECH_MACHINE_FRAME
+      amount: 1
+  output:
+    tick-rate: 80
+    type: SLIMEFUN
+    id: FINALTECH_BUG
+    amount: 8
+
+
+LOGICTECH_BUGGENERATOR_3:
+  category: logictech_finaltechmore
+  item-name: '&x&e&b&3&3&e&bB&x&d&f&2&c&d&fU&x&d&3&2&4&d&3G&x&c&7&1&d&c&7爆&x&b&b&1&6&b&b发&x&a&f&0&f&a&f仪&x&a&3&0&7&a&3 - &x&9&7&0&0&9&7III'
+  item-lore:
+  - '&7自动化生产锟斤拷'
+  - '&7无穷无尽的bug向你涌来!'
+  - ''
+  - "&3逻辑工艺机器" 
+  block-type: SKULLe5c0358fb64eaac6db69a857f8987b5197fcea72609c060a8628da92266fd592
+  item-amount: 1
+  stats:
+    energy-consumption: 113
+    energy-buffer: 2500
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: LOGICTECH_MACHINE_FRAME
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: LOGICTECH_IOPORT
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: LOGICTECH_INTERPRETER
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: LOGICTECH_INFINITERING
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: LOGICTECH_LCORE_MERGE
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: FINALTECH_EQUIVALENT_EXCHANGE_TABLE
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: LOGICTECH_COMPRESSEDBUG
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: FINALTECH_PHONY
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: LOGICTECH_MACHINE_FRAME
+      amount: 1
+  output:
+    tick-rate: 1
+    type: SLIMEFUN
+    id: FINALTECH_BUG
+    amount: 64
+
+LOGICTECH_INFINITY_ALL_IN_ONE_MACHINE_4:
+  category: logictech_slimefunmore
+  item-name: '&x&e&b&3&3&e&b无&x&e&1&2&d&e&1尽&x&d&6&2&6&d&6锭&x&c&b&2&0&c&b一&x&c&1&1&a&c&1体&x&b&7&1&3&b&7机&x&a&c&0&d&a&c - &x&a&2&0&6&a&2I&x&9&7&0&0&9&7V'
+  item-lore:
+  - '&7堆叠机器系列'
+  - '&7为减少卡顿而生'
+  - ''
+  - "&3逻辑工艺机器"
+  block-type: SKULLc41265d57d3706c0b428f1b243044d50d8414926acb3752b8cb9f5b85bcdd096
+  item-amount: 1
+  stats:
+    energy-consumption: 30000
+    energy-buffer: 850000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: INFINITY_ALL_IN_ONE_MACHINE_3
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: INFINITY_ALL_IN_ONE_MACHINE_3
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: INFINITY_ALL_IN_ONE_MACHINE_3
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: INFINITY_ALL_IN_ONE_MACHINE_3
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: LOGICTECH_VIRTUALSPACE
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: INFINITY_ALL_IN_ONE_MACHINE_3
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: INFINITY_ALL_IN_ONE_MACHINE_3
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: INFINITY_ALL_IN_ONE_MACHINE_3
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: INFINITY_ALL_IN_ONE_MACHINE_3
+      amount: 1
+  output:
+    tick-rate: 5
+    type: SLIMEFUN
+    id: INFINITE_INGOT
+    amount: 16
+
+LOGICTECH_INFINITY_ALL_IN_ONE_MACHINE_5:
+  category: logictech_slimefunmore
+  item-name: '&x&e&b&3&3&e&b无&x&e&1&2&d&e&1尽&x&d&6&2&6&d&6锭&x&c&b&2&0&c&b一&x&c&1&1&a&c&1体&x&b&7&1&3&b&7机&x&a&c&0&d&a&c - &x&a&2&0&6&a&2&x&9&7&0&0&9&7V'
+  item-lore:
+  - '&7堆叠机器系列'
+  - '&7为减少卡顿而生'
+  - ''
+  - "&3逻辑工艺机器"
+  block-type: SKULLc41265d57d3706c0b428f1b243044d50d8414926acb3752b8cb9f5b85bcdd096
+  item-amount: 1
+  stats:
+    energy-consumption: 200000
+    energy-buffer: 1000000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: LOGICTECH_INFINITY_ALL_IN_ONE_MACHINE_4
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: LOGICTECH_INFINITY_ALL_IN_ONE_MACHINE_4
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: LOGICTECH_INFINITY_ALL_IN_ONE_MACHINE_4
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: LOGICTECH_INFINITY_ALL_IN_ONE_MACHINE_4
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: LOGICTECH_VIRTUALSPACE
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: LOGICTECH_INFINITY_ALL_IN_ONE_MACHINE_4
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: LOGICTECH_INFINITY_ALL_IN_ONE_MACHINE_4
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: LOGICTECH_INFINITY_ALL_IN_ONE_MACHINE_4
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: LOGICTECH_INFINITY_ALL_IN_ONE_MACHINE_4
+      amount: 1
+  output:
+    tick-rate: 2
+    type: SLIMEFUN
+    id: INFINITE_INGOT
+    amount: 64
+
+LOGICTECH_ZOT_YITIJI:
+  category: logictech_slimefunmore
+  item-name: '&x&e&b&3&3&e&b末&x&d&d&2&b&d&d地&x&c&f&2&2&c&f粒&x&c&1&1&a&c&1子&x&b&3&1&1&b&3一&x&a&5&0&9&a&5体&x&9&7&0&0&9&7机'
+  item-lore:
+  - '&7自动化生产四色粒子'
+  - '&7在主世界也可以运行'
+  - ''
+  - "&3逻辑工艺机器"
+  block-type: SKULL7037926635b25e8f38e79b7f5c82d6a7715dca07c2eb9fb2d2d5b08f007f8735
+  item-amount: 1
+  stats:
+    energy-consumption: 1555
+    energy-buffer: 10000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: QUIRP_OSCILLATOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: LOGICTECH_VIRTUALEND
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: QUIRP_OSCILLATOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: QUIRP_OSCILLATOR
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: LOGICTECH_CRAFTPART
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: QUIRP_OSCILLATOR
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: QUIRP_OSCILLATOR
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: LOGICTECH_IOPORT
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: QUIRP_OSCILLATOR
+      amount: 1
+  output:
+    tick-rate: 4
+    type: SLIMEFUN
+    id: RAINBOW_ZOT
+    amount: 1
+
+
+LOGICTECH_ZOT_YITIJI:
+  category: logictech_slimefunmore
+  item-name: '&x&e&b&3&3&e&b虹&x&d&a&2&9&d&a符&x&c&9&1&f&c&9文&x&b&9&1&4&b&9一&x&a&8&0&a&a&8体&x&9&7&0&0&9&7机'
+  item-lore:
+  - '&7自动化生产虹符文'
+  - ''
+  - "&3逻辑工艺机器"
+  block-type: SKULL7037926635b25e8f38e79b7f5c82d6a7715dca07c2eb9fb2d2d5b08f007f8735
+  item-amount: 1
+  stats:
+    energy-consumption: 443
+    energy-buffer: 10000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: HAIMAN_ADVANCE_DYING
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: HAIMAN_ADVANCE_DYING
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: HAIMAN_ADVANCE_DYING
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: HAIMAN_ADVANCE_DYING
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: LOGICTECH_INTERPRETER
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: HAIMAN_ADVANCE_DYING
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: HAIMAN_ADVANCE_DYING
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: HAIMAN_ADVANCE_DYING
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: HAIMAN_ADVANCE_DYING
+      amount: 1
+  output:
+    tick-rate: 2
+    type: SLIMEFUN
+    id: ANCIENT_RUNE_RAINBOW
+    amount: 1

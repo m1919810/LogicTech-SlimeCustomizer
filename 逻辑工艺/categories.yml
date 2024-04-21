@@ -1,0 +1,40 @@
+logictech_main:
+  category-name: '&7&ka&x&5&5&f&f&7&7逻&x&5&5&f&f&9&9辑&x&5&5&f&f&b&b工&x&5&5&f&f&d&d艺&6(测试版)&7&ka&r'
+  category-item: BUDDING_AMETHYST
+  type: nested
+logictech_version:
+  parent: logictech_main
+  category-name: '&x&f&f&a&a&0&0版&x&e&3&7&1&3&9本&x&c&6&3&9&7&1信&x&a&a&0&0&a&a息'
+  category-item: PAPER
+  type: sub
+logictech_recipetype:
+  parent: logictech_main
+  category-name: '&d逻辑工艺 &6配方信息'
+  category-item: CRAFTING_TABLE
+  type: sub
+logictech_basicmaterial:
+  parent: logictech_main
+  category-name: '&d逻辑工艺 &6基础材料'
+  category-item: SKULL6bfc870c4033412d7abfdcdda2e905c2602f3c6d73127dff9079cc45b102aa6e
+  type: sub
+logictech_basicmachines:
+  parent: logictech_main
+  category-name: '&d逻辑工艺 &6基础机器'
+  category-item: SKULLc24eca6987091cca87234f46905bdfa4578dfb3e5e7a10608ba2e0c18c341988
+  type: sub
+logictech_finaltechmore:
+  parent: logictech_main
+  category-name: '&d逻辑工艺 &6乱序一体化发展和逻辑优化'
+  category-item: OBSERVER
+  type: sub
+logictech_slimefunmore:
+  parent: logictech_main
+  category-name: '&d逻辑工艺 &6附属一体化发展和逻辑优化'
+  category-item: LODESTONE
+  type: sub
+
+logictech_moresingularity:
+  parent: logictech_main
+  category-name: '&d逻辑工艺 &6奇点概念化工艺'
+  category-item: SKULL79cbb4d794da4c600eac20fdd662f421cd456a39167af7bb9e054674e0856d16
+  type: sub

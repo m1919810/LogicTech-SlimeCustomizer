@@ -1,0 +1,3122 @@
+LOGICTECH_LCOMPRESSOR:
+  category: logictech_basicmachines
+  machine-name: '&x&e&b&3&3&e&b逻&x&d&6&2&6&d&6辑&x&c&1&1&a&c&1坍&x&a&c&0&d&a&c缩&x&9&7&0&0&9&7器'
+  machine-lore:
+  - '&7使用逻辑坍缩进行材料制造'
+  - '&7这样材料才能承受逻辑核心的力量'
+  - ''
+  - "&3逻辑工艺机器"
+  block-type: SKULL87e04b5b252a6f4e6473ea952450a9d8d8db4cd657ffd9b419c25c6c80408f3e
+  progress-bar-item: PISTON
+  stats:
+    energy-consumption: 959905
+    energy-buffer: 6666666
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: LOGICTECH_ORDERFIELD
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: FINALTECH_ADVANCED_ELECTRIC_PRESS
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: LOGICTECH_ORDERFIELD
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: LOGICTECH_IOPORT
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: LOGICTECH_COMPRESSEDBUG
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: LOGICTECH_ORDERFIELD
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: FINALTECH_ADVANCED_ELECTRIC_PRESS
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: LOGICTECH_ORDERFIELD
+      amount: 1
+  recipes:
+    1:
+      speed-in-seconds: 0
+      input:
+        1:
+          type: SLIMEFUN
+          id: LOGICTECH_MACHINE_PART
+          amount: 19
+        2:
+          type: SLIMEFUN
+          id: LOGICTECH_ORDERFIELD
+          amount: 2
+      output:
+        1:
+          type: SLIMEFUN
+          id: LOGICTECH_MACHINE_FRAME
+          amount: 1
+        2:
+          type: NONE 
+          id: N/A
+          amount: 1
+    2:
+      speed-in-seconds: 0
+      input:
+        1:
+          type: SLIMEFUN
+          id: LOGICTECH_INTERPRETER
+          amount: 17
+        2:
+          type: NONE 
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: LOGICTECH_INTERPRETAPI
+          amount: 1
+        2:
+          type: NONE 
+          id: N/A
+          amount: 1
+    3:
+      speed-in-seconds: 0
+      input:
+        1:
+          type: SLIMEFUN
+          id: LOGICTECH_IOPORT
+          amount: 23
+        2:
+          type: NONE 
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: LOGICTECH_IOCHANNEL
+          amount: 1
+        2:
+          type: NONE 
+          id: N/A
+          amount: 1
+    4:
+      speed-in-seconds: 0
+      input:
+        1:
+          type: SLIMEFUN
+          id: LOGICTECH_SERIALIZATIONCORE_FRAME
+          amount: 13
+        2:
+          type: SLIMEFUN
+          id: LOGICTECH_IOCHANNEL
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: LOGICTECH_SERIALIZATIONCORE
+          amount: 1
+        2:
+          type: NONE 
+          id: N/A
+          amount: 1
+
+
+
+
+LOGICTECH_LASSEMBLER:
+  category: logictech_basicmachines
+  machine-name: '&x&e&b&3&3&e&b逻&x&d&6&2&6&d&6辑&x&c&1&1&a&c&1构&x&a&c&0&d&a&c造&x&9&7&0&0&9&7器'
+  machine-lore:
+  - '&7编写简单逻辑并进行封装'
+  - '&7用于机器制造,堆叠和合并'
+  - ''
+  - "&3逻辑工艺机器"
+  block-type: SKULLd806548fae9bdd93d3bc1c7da736b695cdf3e72ae541e92d6057b95b8427
+  progress-bar-item: COMMAND_BLOCK
+  stats:
+    energy-consumption: 623731
+    energy-buffer: 6666666
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: LOGICTECH_MACHINE_FRAME
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: LOGICTECH_LCORE_COMPRESS
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: LOGICTECH_INTERPRETAPI
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id:  LOGICTECH_INFINITERING
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: LOGICTECH_COMPRESSEDBUG
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: LOGICTECH_LCORE_MERGE
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: LOGICTECH_IOCHANNEL
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: LOGICTECH_LCORE_COMPRESS
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: LOGICTECH_MACHINE_FRAME
+      amount: 1
+  recipes:
+    1:
+      speed-in-seconds: 120
+      input:
+        1:
+          type: SLIMEFUN
+          id: LOGICTECH_IOPORT
+          amount: 24
+        2:
+          type: SLIMEFUN
+          id: LOGICTECH_ORDERFIELD
+          amount: 3
+      output:
+        1:
+          type: SLIMEFUN
+          id: LOGICTECH_LCPU_DUSTYITI
+          amount: 1
+        2:
+          type: NONE 
+          id: N/A
+          amount: 1
+    2:
+      speed-in-seconds: 10
+      input:
+        1:
+          type: SLIMEFUN
+          id: LOGICTECH_LCORE_COMPRESS
+          amount: 1
+        2:
+          type: SLIMEFUN
+          id: LOGICTECH_MACHINE_FRAME
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: LOGICTECH_VIRTUALSPACE
+          amount: 31
+        2:
+          type: NONE 
+          id: N/A
+          amount: 1
+    3:
+      speed-in-seconds: 10
+      input:
+        1:
+          type: SLIMEFUN
+          id: LOGICTECH_LCORE_MERGE
+          amount: 1
+        2:
+          type: SLIMEFUN
+          id:  ENHANCED_AUTO_CRAFTER
+          amount: 20
+      output:
+        1:
+          type: SLIMEFUN
+          id: LOGICTECH_CRAFTPART
+          amount: 11
+        2:
+          type: NONE 
+          id: N/A
+          amount: 1
+    4:
+      speed-in-seconds: 10
+      input:
+        1:
+          type: SLIMEFUN
+          id: LOGICTECH_LCORE_MERGE
+          amount: 1
+        2:
+          type: SLIMEFUN
+          id:  PROGRAMMABLE_ANDROID_3
+          amount: 12
+      output:
+        1:
+          type: SLIMEFUN
+          id: LOGICTECH_VIRTUALOPERATOR
+          amount: 11
+        2:
+          type: NONE 
+          id: N/A
+          amount: 1
+    5:
+      speed-in-seconds: 120
+      input:
+        1:
+          type: SLIMEFUN
+          id: LOGICTECH_LCORE_INVERSE
+          amount: 2
+        2:
+          type: SLIMEFUN
+          id: COBBLE_PRESS
+          amount: 8
+      output:
+        1:
+          type: SLIMEFUN
+          id: LOGICTECH_LCPU_STONEBAIPIAO
+          amount: 1
+        2:
+          type: NONE 
+          id: N/A
+          amount: 1
+
+LOGICTECH_FINALTECH_PUMP_WATER:
+  category: logictech_finaltechmore
+  machine-name: '&x&e&b&3&3&e&b流&x&d&6&2&6&d&6体&x&c&1&1&a&c&1提&x&a&c&0&d&a&c取&x&9&7&0&0&9&7器 - &b水'
+  machine-lore:
+  - '&7从流体工厂中提取液体...'
+  - ''
+  - "&3逻辑工艺机器"
+  block-type: CAULDRON
+  progress-bar-item: BUCKET
+  stats:
+    energy-consumption: 67
+    energy-buffer: 2000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    crafting-recipe:
+    '1':
+      type: VANILLA
+      id: BUCKET
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: FINALTECH_BASIC_LIQUID_FACTORY
+      amount: 1
+    '3':
+      type: VANILLA
+      id: BUCKET
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: LOGICTECH_VIRTUALOPERATOR
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: OIL_PUMP
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: FINALTECH_WATER_CARD
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: OIL_PUMP
+      amount: 1
+  recipes:
+    1:
+      input:
+        1:
+          amount: 2
+          id: BUCKET
+          type: VANILLA
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      output:
+        1:
+          amount: 1
+          id: WATER_BUCKET
+          type: VANILLA
+        2:
+          amount: 1
+          id: WATER_BUCKET
+          type: VANILLA
+      speed-in-seconds: 0
+
+LOGICTECH_FINALTECH_PUMP_LAVA:
+  category: logictech_finaltechmore
+  machine-name: '&x&e&b&3&3&e&b流&x&d&6&2&6&d&6体&x&c&1&1&a&c&1提&x&a&c&0&d&a&c取&x&9&7&0&0&9&7器 - &b岩浆'
+  machine-lore:
+  - '&7从流体工厂中提取液体...'
+  - ''
+  - "&3逻辑工艺机器"
+  block-type: CAULDRON
+  progress-bar-item: BUCKET
+  stats:
+    energy-consumption: 67
+    energy-buffer: 2000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    crafting-recipe:
+    '1':
+      type: VANILLA
+      id: BUCKET
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: FINALTECH_BASIC_LIQUID_FACTORY
+      amount: 1
+    '3':
+      type: VANILLA
+      id: BUCKET
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: LOGICTECH_VIRTUALOPERATOR
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: OIL_PUMP
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: FINALTECH_LAVAL_CARD
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: OIL_PUMP
+      amount: 1
+  recipes:
+    1:
+      input:
+        1:
+          amount: 2
+          id: BUCKET
+          type: VANILLA
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      output:
+        1:
+          amount: 1
+          id: LAVA_BUCKET
+          type: VANILLA
+        2:
+          amount: 1
+          id: LAVA_BUCKET
+          type: VANILLA
+      speed-in-seconds: 0
+
+LOGICTECH_FINALTECH_PUMP_MILK:
+  category: logictech_finaltechmore
+  machine-name: '&x&e&b&3&3&e&b流&x&d&6&2&6&d&6体&x&c&1&1&a&c&1提&x&a&c&0&d&a&c取&x&9&7&0&0&9&7器 - &B牛奶'
+  machine-lore:
+  - '&7从流体工厂中提取液体...'
+  - ''
+  - "&3逻辑工艺机器"
+  block-type: CAULDRON
+  progress-bar-item: BUCKET
+  stats:
+    energy-consumption: 67
+    energy-buffer: 2000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    crafting-recipe:
+    '1':
+      type: VANILLA
+      id: BUCKET
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: FINALTECH_BASIC_LIQUID_FACTORY
+      amount: 1
+    '3':
+      type: VANILLA
+      id: BUCKET
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: LOGICTECH_VIRTUALOPERATOR
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: OIL_PUMP
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: FINALTECH_MILK_CARD
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: OIL_PUMP
+      amount: 1
+  recipes:
+    1:
+      input:
+        1:
+          amount: 2
+          id: BUCKET
+          type: VANILLA
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      output:
+        1:
+          amount: 1
+          id: MILK_BUCKET
+          type: VANILLA
+        2:
+          amount: 1
+          id: MILK_BUCKET
+          type: VANILLA
+      speed-in-seconds: 0
+
+LOGICTECH_FINALTECH_BASIC_COBBLE_FACTORY_1:
+  category: logictech_finaltechmore
+  machine-name: '&x&e&b&3&3&e&b堆&x&d&f&2&c&d&f叠&x&d&3&2&4&d&3刷&x&c&7&1&d&c&7石&x&b&b&1&6&b&b工&x&a&f&0&f&a&f厂&x&a&3&0&7&a&3 - &x&9&7&0&0&9&7I'
+  machine-lore:
+  - '&7堆叠机器系列'
+  - '&7为减少卡顿而生'
+  - ''
+  - "&3逻辑工艺机器"
+  block-type: CHISELED_STONE_BRICKS
+  progress-bar-item: DIAMOND_PICKAXE
+  stats:
+    energy-consumption: 57
+    energy-buffer: 1000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: FINALTECH_BASIC_COBBLE_FACTORY
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: FINALTECH_BASIC_COBBLE_FACTORY
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: FINALTECH_BASIC_COBBLE_FACTORY
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: FINALTECH_BASIC_COBBLE_FACTORY
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: LOGICTECH_VIRTUALSPACE
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: FINALTECH_BASIC_COBBLE_FACTORY
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: FINALTECH_BASIC_COBBLE_FACTORY
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: FINALTECH_BASIC_COBBLE_FACTORY
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: FINALTECH_BASIC_COBBLE_FACTORY
+      amount: 1
+  recipes:
+    1:
+      input:
+        1:
+          amount: 1
+          id: COBBLESTONE
+          type: VANILLA
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      output:
+        1:
+          amount: 64
+          id: COBBLESTONE
+          type: VANILLA
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 0
+    2:
+      input:
+        1:
+          amount: 1
+          id: COBBLED_DEEPSLATE
+          type: VANILLA
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      output:
+        1:
+          amount: 64
+          id: COBBLED_DEEPSLATE
+          type: VANILLA
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 0
+    3:
+      input:
+        1:
+          amount: 1
+          id: GRANITE
+          type: VANILLA
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      output:
+        1:
+          amount: 64
+          id: GRANITE
+          type: VANILLA
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 0
+    4:
+      input:
+        1:
+          amount: 1
+          id: DIORITE
+          type: VANILLA
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      output:
+        1:
+          amount: 64
+          id: DIORITE
+          type: VANILLA
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 0
+    5:
+      input:
+        1:
+          amount: 1
+          id: ANDESITE
+          type: VANILLA
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      output:
+        1:
+          amount: 64
+          id: ANDESITE
+          type: VANILLA
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 0
+    6:
+      input:
+        1:
+          amount: 1
+          id: NETHERRACK
+          type: VANILLA
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      output:
+        1:
+          amount: 64
+          id: NETHERRACK
+          type: VANILLA
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 0
+    7:
+      input:
+        1:
+          amount: 1
+          id: BASALT
+          type: VANILLA
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      output:
+        1:
+          amount: 64
+          id: BASALT
+          type: VANILLA
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 0
+    8:
+      input:
+        1:
+          amount: 1
+          id: BLACKSTONE
+          type: VANILLA
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      output:
+        1:
+          amount: 64
+          id: BLACKSTONE
+          type: VANILLA
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 0
+    9:
+      input:
+        1:
+          amount: 1
+          id: OBSIDIAN
+          type: VANILLA
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      output:
+        1:
+          amount: 64
+          id: OBSIDIAN
+          type: VANILLA
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 0
+    10:
+      input:
+        1:
+          amount: 1
+          id: CALCITE
+          type: VANILLA
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      output:
+        1:
+          amount: 64
+          id: CALCITE
+          type: VANILLA
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 0
+    11:
+      input:
+        1:
+          amount: 1
+          id: TUFF
+          type: VANILLA
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      output:
+        1:
+          amount: 64
+          id: TUFF
+          type: VANILLA
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 0
+    12:
+      input:
+        1:
+          amount: 1
+          id: DIRT
+          type: VANILLA
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      output:
+        1:
+          amount: 64
+          id: DIRT
+          type: VANILLA
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 0
+
+
+
+LOGICTECH_FINALTECH_BASIC_COBBLE_FACTORY_2:
+  category: logictech_finaltechmore
+  machine-name: '&x&e&b&3&3&e&b堆&x&d&f&2&c&d&f叠&x&d&3&2&4&d&3刷&x&c&7&1&d&c&7石&x&b&b&1&6&b&b工&x&a&f&0&f&a&f厂&x&a&3&0&7&a&3 - &x&9&7&0&0&9&7II'
+  machine-lore:
+  - '&7堆叠机器系列'
+  - '&7为减少卡顿而生'
+  - ''
+  - "&3逻辑工艺机器"
+  block-type: CHISELED_STONE_BRICKS
+  progress-bar-item: DIAMOND_PICKAXE
+  stats:
+    energy-consumption: 57
+    energy-buffer: 1000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: LOGICTECH_FINALTECH_BASIC_COBBLE_FACTORY_1
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: LOGICTECH_FINALTECH_BASIC_COBBLE_FACTORY_1
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: LOGICTECH_FINALTECH_BASIC_COBBLE_FACTORY_1
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: LOGICTECH_FINALTECH_BASIC_COBBLE_FACTORY_1
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: LOGICTECH_VIRTUALSPACE
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: LOGICTECH_FINALTECH_BASIC_COBBLE_FACTORY_1
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: LOGICTECH_FINALTECH_BASIC_COBBLE_FACTORY_1
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: LOGICTECH_FINALTECH_BASIC_COBBLE_FACTORY_1
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: LOGICTECH_FINALTECH_BASIC_COBBLE_FACTORY_1
+      amount: 1
+  recipes:
+    1:
+      speed-in-seconds: 0
+      input:
+        1:
+          type: SLIMEFUN
+          id: COMPRESSED_COBBLESTONE_1
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: COMPRESSED_COBBLESTONE_1
+          amount: 64
+        2:
+          type: NONE 
+          id: N/A
+          amount: 1
+    2:
+      speed-in-seconds: 0
+      input:
+        1:
+          type: SLIMEFUN
+          id: FINALTECH_GEARWHEEL
+          amount: 4
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: FINALTECH_GEARWHEEL
+          amount: 64
+        2:
+          type: NONE 
+          id: N/A
+          amount: 1
+
+LOGICTECH_FINALTECH_BASIC_COBBLE_FACTORY_3:
+  category: logictech_finaltechmore
+  machine-name: '&x&e&b&3&3&e&b堆&x&d&f&2&c&d&f叠&x&d&3&2&4&d&3刷&x&c&7&1&d&c&7石&x&b&b&1&6&b&b工&x&a&f&0&f&a&f厂&x&a&3&0&7&a&3 - &x&9&7&0&0&9&7III'
+  machine-lore:
+  - '&7堆叠机器系列'
+  - '&7为减少卡顿而生'
+  - ''
+  - "&3逻辑工艺机器"
+  block-type: CHISELED_STONE_BRICKS
+  progress-bar-item: DIAMOND_PICKAXE
+  stats:
+    energy-consumption: 57
+    energy-buffer: 1000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: LOGICTECH_FINALTECH_BASIC_COBBLE_FACTORY_2
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: LOGICTECH_FINALTECH_BASIC_COBBLE_FACTORY_2
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: LOGICTECH_FINALTECH_BASIC_COBBLE_FACTORY_2
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: LOGICTECH_FINALTECH_BASIC_COBBLE_FACTORY_2
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: LOGICTECH_VIRTUALSPACE
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: LOGICTECH_FINALTECH_BASIC_COBBLE_FACTORY_2
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: LOGICTECH_FINALTECH_BASIC_COBBLE_FACTORY_2
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: LOGICTECH_FINALTECH_BASIC_COBBLE_FACTORY_2
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: LOGICTECH_FINALTECH_BASIC_COBBLE_FACTORY_2
+      amount: 1
+  recipes:
+    1:
+      speed-in-seconds: 0
+      input:
+        1:
+          type: SLIMEFUN
+          id: COMPRESSED_COBBLESTONE_2
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: COMPRESSED_COBBLESTONE_2
+          amount: 64
+        2:
+          type: NONE 
+          id: N/A
+          amount: 1
+LOGICTECH_FINALTECH_BASIC_COBBLE_FACTORY_4:
+  category: logictech_finaltechmore
+  machine-name: '&x&e&b&3&3&e&b堆&x&d&f&2&c&d&f叠&x&d&3&2&4&d&3刷&x&c&7&1&d&c&7石&x&b&b&1&6&b&b工&x&a&f&0&f&a&f厂&x&a&3&0&7&a&3 - &x&9&7&0&0&9&7IV'
+  machine-lore:
+  - '&7堆叠机器系列'
+  - '&7为减少卡顿而生'
+  - ''
+  - "&3逻辑工艺机器"
+  block-type: CHISELED_STONE_BRICKS
+  progress-bar-item: DIAMOND_PICKAXE
+  stats:
+    energy-consumption: 57
+    energy-buffer: 1000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: LOGICTECH_FINALTECH_BASIC_COBBLE_FACTORY_3
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: LOGICTECH_FINALTECH_BASIC_COBBLE_FACTORY_3
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: LOGICTECH_FINALTECH_BASIC_COBBLE_FACTORY_3
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: LOGICTECH_FINALTECH_BASIC_COBBLE_FACTORY_3
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: LOGICTECH_VIRTUALSPACE
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: LOGICTECH_FINALTECH_BASIC_COBBLE_FACTORY_3
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: LOGICTECH_FINALTECH_BASIC_COBBLE_FACTORY_3
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: LOGICTECH_FINALTECH_BASIC_COBBLE_FACTORY_3
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: LOGICTECH_FINALTECH_BASIC_COBBLE_FACTORY_3
+      amount: 1
+  recipes:
+    1:
+      speed-in-seconds: 0
+      input:
+        1:
+          type: SLIMEFUN
+          id: COMPRESSED_COBBLESTONE_3
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: COMPRESSED_COBBLESTONE_3
+          amount: 64
+        2:
+          type: NONE 
+          id: N/A
+          amount: 1
+
+LOGICTECH_FINALTECH_BASIC_COBBLE_FACTORY_5:
+  category: logictech_finaltechmore
+  machine-name: '&x&e&b&3&3&e&b堆&x&d&f&2&c&d&f叠&x&d&3&2&4&d&3刷&x&c&7&1&d&c&7石&x&b&b&1&6&b&b工&x&a&f&0&f&a&f厂&x&a&3&0&7&a&3 - &x&9&7&0&0&9&7V'
+  machine-lore:
+  - '&7堆叠机器系列'
+  - '&7为减少卡顿而生'
+  - ''
+  - "&3逻辑工艺机器"
+  block-type: CHISELED_STONE_BRICKS
+  progress-bar-item: DIAMOND_PICKAXE
+  stats:
+    energy-consumption: 57
+    energy-buffer: 1000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: LOGICTECH_FINALTECH_BASIC_COBBLE_FACTORY_4
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: LOGICTECH_FINALTECH_BASIC_COBBLE_FACTORY_4
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: LOGICTECH_FINALTECH_BASIC_COBBLE_FACTORY_4
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: LOGICTECH_FINALTECH_BASIC_COBBLE_FACTORY_4
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: LOGICTECH_VIRTUALSPACE
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: LOGICTECH_FINALTECH_BASIC_COBBLE_FACTORY_4
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: LOGICTECH_FINALTECH_BASIC_COBBLE_FACTORY_4
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: LOGICTECH_FINALTECH_BASIC_COBBLE_FACTORY_4
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: LOGICTECH_FINALTECH_BASIC_COBBLE_FACTORY_4
+      amount: 1
+  recipes:
+    1:
+      speed-in-seconds: 0
+      input:
+        1:
+          type: SLIMEFUN
+          id: COMPRESSED_COBBLESTONE_4
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: COMPRESSED_COBBLESTONE_4
+          amount: 64
+        2:
+          type: NONE 
+          id: N/A
+          amount: 1
+LOGICTECH_FINALTECH_BASIC_ORE_FACTORY_1:
+  category: logictech_finaltechmore
+  machine-name: '&x&e&b&3&3&e&b堆&x&d&f&2&c&d&f叠&x&d&3&2&4&d&3矿&x&c&7&1&d&c&7石&x&b&b&1&6&b&b工&x&a&f&0&f&a&f厂&x&a&3&0&7&a&3 - &x&9&7&0&0&9&7I'
+  machine-lore:
+  - '&7堆叠机器系列'
+  - '&7为减少卡顿而生'
+  - ''
+  - "&3逻辑工艺机器"
+  block-type: CHISELED_DEEPSLATE
+  progress-bar-item: DIAMOND_PICKAXE
+  stats:
+    energy-consumption: 241
+    energy-buffer: 1000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: CARBONADO_EDGED_FURNACE
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: FINALTECH_BASIC_COBBLE_FACTORY
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: CARBONADO_EDGED_FURNACE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: FINALTECH_ADVANCED_ELECTRIC_ORE_GRINDER
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: LOGICTECH_IOPORT
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: FINALTECH_ADVANCED_ELECTRIC_ORE_GRINDER
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: FINALTECH_ADVANCED_ORE_FACTORY
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: FINALTECH_ADVANCED_ORE_FACTORY
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: FINALTECH_ADVANCED_ORE_FACTORY
+      amount: 1
+  recipes:
+    recipes:
+    1:
+      input:
+        1:
+          amount: 1
+          id: COAL
+          type: VANILLA
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      output:
+        1:
+          amount: 3
+          id: COAL
+          type: VANILLA
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 0
+    2:
+      input:
+        1:
+          amount: 1
+          id: IRON_INGOT
+          type: VANILLA
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      output:
+        1:
+          amount: 3
+          id: IRON_INGOT
+          type: VANILLA
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 0
+    3:
+      input:
+        1:
+          amount: 1
+          id: GOLD_INGOT
+          type: VANILLA
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      output:
+        1:
+          amount: 3
+          id: GOLD_INGOT
+          type: VANILLA
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 0
+    4:
+      input:
+        1:
+          amount: 1
+          id: COPPER_INGOT
+          type: VANILLA
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      output:
+        1:
+          amount: 3
+          id: COPPER_INGOT
+          type: VANILLA
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 0
+    5:
+      input:
+        1:
+          amount: 1
+          id: REDSTONE
+          type: VANILLA
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      output:
+        1:
+          amount: 3
+          id: REDSTONE
+          type: VANILLA
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 0
+    6:
+      input:
+        1:
+          amount: 1
+          id: LAPIS_LAZULI
+          type: VANILLA
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      output:
+        1:
+          amount: 3
+          id: LAPIS_LAZULI
+          type: VANILLA
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 0
+    7:
+      input:
+        1:
+          amount: 1
+          id: DIAMOND
+          type: VANILLA
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      output:
+        1:
+          amount: 3
+          id: DIAMOND
+          type: VANILLA
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 0
+    8:
+      input:
+        1:
+          amount: 1
+          id: EMERALD
+          type: VANILLA
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      output:
+        1:
+          amount: 3
+          id: EMERALD
+          type: VANILLA
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 0
+    9:
+      input:
+        1:
+          amount: 1
+          id: QUARTZ
+          type: VANILLA
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      output:
+        1:
+          amount: 3
+          id: QUARTZ
+          type: VANILLA
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 0
+    10:
+      input:
+        1:
+          amount: 1
+          id: NETHERITE_SCRAP
+          type: VANILLA
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      output:
+        1:
+          amount: 3
+          id: NETHERITE_SCRAP
+          type: VANILLA
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 0
+    11:
+      input:
+        1:
+          amount: 1
+          id: AMETHYST_SHARD
+          type: VANILLA
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      output:
+        1:
+          amount: 3
+          id: AMETHYST_SHARD
+          type: VANILLA
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 0
+
+
+
+LOGICTECH_FINALTECH_BASIC_DUST_FACTORY_1:
+  category: logictech_finaltechmore
+  machine-name: '&x&e&b&3&3&e&b堆&x&d&f&2&c&d&f叠&x&d&3&2&4&d&3矿&x&c&7&1&d&c&7粉&x&b&b&1&6&b&b工&x&a&f&0&f&a&f厂&x&a&3&0&7&a&3-&x&9&7&0&0&9&7I'
+  machine-lore:
+  - '&7堆叠机器系列'
+  - '&7为减少卡顿而生'
+  - ''
+  - "&3逻辑工艺机器"
+  block-type: POLISHED_DEEPSLATE
+  progress-bar-item: DIAMOND_PICKAXE
+  stats:
+    energy-consumption: 241
+    energy-buffer: 1000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: LOGICTECH_FINALTECH_BASIC_COBBLE_FACTORY_1
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: FINALTECH_BASIC_DUST_FACTORY
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: LOGICTECH_FINALTECH_BASIC_COBBLE_FACTORY_1
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: FINALTECH_BASIC_DUST_FACTORY
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: LOGICTECH_IOPORT
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: FINALTECH_BASIC_DUST_FACTORY
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: LOGICTECH_FINALTECH_BASIC_COBBLE_FACTORY_1
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: FINALTECH_BASIC_DUST_FACTORY
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: LOGICTECH_FINALTECH_BASIC_COBBLE_FACTORY_1
+      amount: 1
+  recipes:
+    1:
+      input:
+        1:
+          amount: 10
+          id: IRON_DUST
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      output:
+        1:
+          amount: 32
+          id: IRON_DUST
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 0
+    2:
+      input:
+        1:
+          amount: 10
+          id: GOLD_DUST
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      output:
+        1:
+          amount: 32
+          id: GOLD_DUST
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 0
+    3:
+      input:
+        1:
+          amount: 10
+          id: COPPER_DUST
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      output:
+        1:
+          amount: 32
+          id: COPPER_DUST
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 0
+    4:
+      input:
+        1:
+          amount: 10
+          id: TIN_DUST
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      output:
+        1:
+          amount: 32
+          id: TIN_DUST
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 0
+    5:
+      input:
+        1:
+          amount: 10
+          id: LEAD_DUST
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      output:
+        1:
+          amount: 32
+          id: LEAD_DUST
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 0
+    6:
+      input:
+        1:
+          amount: 10
+          id: SILVER_DUST
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      output:
+        1:
+          amount: 32
+          id: SILVER_DUST
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 0
+    7:
+      input:
+        1:
+          amount: 10
+          id: ALUMINUM_DUST
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      output:
+        1:
+          amount: 32
+          id: ALUMINUM_DUST
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 0
+    8:
+      input:
+        1:
+          amount: 10
+          id: ZINC_DUST
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      output:
+        1:
+          amount: 32
+          id: ZINC_DUST
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 0
+    9:
+      input:
+        1:
+          amount: 10
+          id: MAGNESIUM_DUST
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      output:
+        1:
+          amount: 32
+          id: MAGNESIUM_DUST
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 0
+
+LOGICTECH_FINALTECH_COPYCARD_YITIJI1:
+  category: logictech_finaltechmore
+  machine-name: '&x&e&b&3&3&e&b圆&x&d&f&2&c&d&f石&x&d&3&2&4&d&3复&x&c&7&1&d&c&7制&x&b&b&1&6&b&b卡&x&a&f&0&f&a&f一&x&a&3&0&7&a&3体&x&9&7&0&0&9&7机'
+  machine-lore:
+  - '&7基于逻辑核心-复制的乱序复制卡一体机'
+  - '&7为减少卡顿而生'
+  - '&7速率: 360s/个'
+  - ''
+  - "&3逻辑工艺机器"
+  block-type: SKULL3f4876b6a5d6dd785e091fd134a21c91d0a9cac5a622e448b5ffcb65ef45278
+  progress-bar-item: BUDDING_AMETHYST
+  stats:
+    energy-consumption: 5677
+    energy-buffer: 30000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: LOGICTECH_MACHINE_FRAME
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: LOGICTECH_IOCHANNEL
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: LOGICTECH_INTERPRETAPI
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: INFINITY_COBBLE_GEN
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: LOGICTECH_LCPU_STONEBAIPIAO
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: LOGICTECH_SERIALIZATIONCORE
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: LOGICTECH_INTERPRETAPI
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: LOGICTECH_IOCHANNEL
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: LOGICTECH_MACHINE_FRAME
+      amount: 1
+  recipes:
+    1:
+      speed-in-seconds: 360
+      input:
+        1:
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 31
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SAVEDITEM
+          id: LOGICTECH_COBBLESTONECOPYCARD
+          amount: 1
+        2:
+          type: NONE 
+          id: N/A
+          amount: 1
+
+
+
+LOGICTECH_FINALTECH_COPYCARD_YITIJI2:
+  category: logictech_finaltechmore
+  machine-name: '&x&e&b&3&3&e&b圆&x&d&f&2&c&d&f石&x&d&3&2&4&d&3复&x&c&7&1&d&c&7制&x&b&b&1&6&b&b卡&x&a&f&0&f&a&f一&x&a&3&0&7&a&3体&x&9&7&0&0&9&7机'
+  machine-lore:
+  - '&7基于逻辑核心-压缩的乱序复制卡一体机'
+  - '&7为减少卡顿而生'
+  - '&7速率: 30s/个'
+  - ''
+  - "&3逻辑工艺机器"
+  block-type: SKULL3f4876b6a5d6dd785e091fd134a21c91d0a9cac5a622e448b5ffcb65ef45278
+  progress-bar-item: BUDDING_AMETHYST
+  stats:
+    energy-consumption: 647
+    energy-buffer: 30000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: LOGICTECH_MACHINE_FRAME
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: LOGICTECH_SERIALIZATIONCORE
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: LOGICTECH_SERIALIZATIONCORE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: LOGICTECH_IOCHANNEL
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: LOGICTECH_IOCHANNEL
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: LOGICTECH_SERIALIZATIONCORE
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: LOGICTECH_FINALTECH_BASIC_COBBLE_FACTORY_5
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: LOGICTECH_IOCHANNEL
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: LOGICTECH_MACHINE_FRAME
+      amount: 1
+  recipes:
+    1:
+      speed-in-seconds: 30
+      input:
+        1:
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 7
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SAVEDITEM
+          id: LOGICTECH_COBBLESTONECOPYCARD
+          amount: 1
+        2:
+          type: NONE 
+          id: N/A
+          amount: 1
+
+
+
+LOGICTECH_FINALTECH_DUST_YITIJI1:
+  category: logictech_finaltechmore
+  machine-name: '&x&e&b&3&3&e&b乱&x&d&d&2&b&d&d序&x&c&f&2&2&c&f尘&x&c&1&1&a&c&1埃&x&b&3&1&1&b&3一&x&a&5&0&9&a&5体&x&9&7&0&0&9&7机'
+  machine-lore:
+  - '&7基于逻辑核心-融合的尘埃生产一体机'
+  - '&7为减少卡顿而生'
+  - ''
+  - "&3逻辑工艺机器"
+  block-type: SKULL87aa154ad38c775f6eeec4bb7e1709909665ee298d41db9104fb0a60ad1b5745
+  progress-bar-item: COBBLESTONE
+  stats:
+    energy-consumption: 371
+    energy-buffer: 3000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: LOGICTECH_FINALTECH_BASIC_COBBLE_FACTORY_1
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: LOGICTECH_IOPORT
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: LOGICTECH_FINALTECH_BASIC_COBBLE_FACTORY_1
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: LOGICTECH_FINALTECH_BASIC_COBBLE_FACTORY_1
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: LOGICTECH_LCORE_MERGE
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: LOGICTECH_FINALTECH_BASIC_COBBLE_FACTORY_1
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: LOGICTECH_FINALTECH_BASIC_COBBLE_FACTORY_1
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: LOGICTECH_LCPU_DUSTYITI
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: LOGICTECH_FINALTECH_BASIC_COBBLE_FACTORY_1
+      amount: 1
+  recipes:
+    1:
+      speed-in-seconds: 0
+      input:
+        1:
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: FINALTECH_ORDERED_DUST
+          amount: 1
+        2:
+          type: NONE 
+          id: N/A
+          amount: 1
+    2:
+      speed-in-seconds: 0
+      input:
+        1:
+          type: VANILLA
+          id: STONE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: FINALTECH_UNORDERED_DUST
+          amount: 1
+        2:
+          type: NONE 
+          id: N/A
+          amount: 1
+
+
+
+
+LOGICTECH_FINALTECH_CARDOPERATION_YITIJI:
+  category: logictech_finaltechmore
+  machine-name: '&x&e&b&3&3&e&b物&x&d&f&2&c&d&f品&x&d&3&2&4&d&3卡&x&c&7&1&d&c&7操&x&b&b&1&6&b&b作&x&a&f&0&f&a&f一&x&a&3&0&7&a&3体&x&9&7&0&0&9&7机'
+  machine-lore:
+  - '&7自动化合成物品卡操作台配方'
+  - '&7物品卡复制配方请把要复制的卡片放在输出栏'
+  - ''
+  - "&3逻辑工艺机器"
+  block-type: CARTOGRAPHY_TABLE
+  progress-bar-item: FLINT
+  stats:
+    energy-consumption: 665
+    energy-buffer: 3000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: FINALTECH_CARD_OPERATION_PORT
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: LOGICTECH_VIRTUALOPERATOR
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: FINALTECH_CARD_OPERATION_PORT
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: FINALTECH_CARD_OPERATION_PORT
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: LOGICTECH_IOPORT
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: FINALTECH_CARD_OPERATION_PORT
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: FINALTECH_CARD_OPERATION_PORT
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: LOGICTECH_VIRTUALOPERATOR
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: FINALTECH_CARD_OPERATION_PORT
+      amount: 1
+  recipes:
+    1:
+      speed-in-seconds: 0
+      input:
+        1:
+          type: SLIMEFUN
+          id: FINALTECH_COPY_CARD
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: FINALTECH_ANNULAR
+          amount: 1
+        2:
+          type: NONE 
+          id: N/A
+          amount: 1
+    2:
+      speed-in-seconds: 0
+      input:
+        1:
+          type: SLIMEFUN
+          id: FINALTECH_SHELL
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: FINALTECH_COPY_CARD
+          amount: 1
+        2:
+          type: NONE 
+          id: N/A
+          amount: 1
+    3:
+      speed-in-seconds: 0
+      input:
+        1:
+          type: SLIMEFUN
+          id: FINALTECH_SINGULARITY
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: FINALTECH_SHELL
+          amount: 1
+        2:
+          type: NONE 
+          id: N/A
+          amount: 1
+    4:
+      speed-in-seconds: 0
+      input:
+        1:
+          type: SLIMEFUN
+          id: FINALTECH_SPIROCHETE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: FINALTECH_SHELL
+          amount: 1
+        2:
+          type: NONE 
+          id: N/A
+          amount: 1
+
+LOGICTECH_TRANSCENDENCE_YITIJI:
+  category: logictech_slimefunmore
+  machine-name: '&x&e&b&3&3&e&b末&x&e&1&2&d&e&1地&x&d&6&2&6&d&6科&x&c&b&2&0&c&b技&x&c&1&1&a&c&1一&x&b&7&1&3&b&7体&x&a&c&0&d&a&c化&x&a&2&0&6&a&2产&x&9&7&0&0&9&7线'
+  machine-lore:
+  - '&7冷凝,合成,稳定,充能四合一'
+  - ''
+  - "&3逻辑工艺机器"
+  block-type: SKULLbc40883f14d1d21e33fb7ee428936ecf088006c81b55996b1e153a8add1ab6a9
+  progress-bar-item: NETHER_STAR
+  stats:
+    energy-consumption: 739
+    energy-buffer: 3000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: STABILIZER
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: LOGICTECH_VIRTUALEND
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: STABILIZER
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: QUIRP_ANNIHILATOR
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: LOGICTECH_CRAFTPART
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: QUIRP_ANNIHILATOR
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ZOT_OVERLOADER
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: LOGICTECH_INTERPRETER
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: ZOT_OVERLOADER
+      amount: 1
+  recipes:
+    1:
+      speed-in-seconds: 3
+      input:
+        1:
+          type: SLIMEFUN
+          id: RAINBOW_ZOT
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: QUIRPCONDENSATE
+          amount: 2
+        2:
+          type: NONE 
+          id: N/A
+          amount: 1
+    2:
+      speed-in-seconds: 29
+      input:
+        1:
+          type: SLIMEFUN
+          id: QUIRPCONDENSATE
+          amount: 7
+        2:
+          type: SLIMEFUN
+          id: BLISTERING_INGOT_3
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: STABLEINGOT
+          amount: 1
+        2:
+          type: NONE 
+          id: N/A
+          amount: 1
+    3:
+      speed-in-seconds: 6
+      input:
+        1:
+          type: SLIMEFUN
+          id: STABLEINGOT
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: UNSTABLEINGOT4
+          amount: 1
+        2:
+          type: NONE 
+          id: N/A
+          amount: 1
+    4:
+      speed-in-seconds: 3
+      input:
+        1:
+          type: SLIMEFUN
+          id: UNSTABLEINGOT4
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: UNSTABLEINGOT3
+          amount: 1
+        2:
+          type: NONE 
+          id: N/A
+          amount: 1
+    5:
+      speed-in-seconds: 3
+      input:
+        1:
+          type: SLIMEFUN
+          id: UNSTABLEINGOT3
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: UNSTABLEINGOT2
+          amount: 1
+        2:
+          type: NONE 
+          id: N/A
+          amount: 1
+    6:
+      speed-in-seconds: 3
+      input:
+        1:
+          type: SLIMEFUN
+          id: UNSTABLEINGOT2
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: UNSTABLEINGOT
+          amount: 1
+        2:
+          type: NONE 
+          id: N/A
+          amount: 1
+    7:
+      speed-in-seconds: 120
+      input:
+        1:
+          type: SLIMEFUN
+          id: ZOT_UP
+          amount: 1
+        2:
+          type: SLIMEFUN
+          id: QUIRPCONDENSATE
+          amount: 64
+      output:
+        1:
+          type: SLIMEFUN
+          id: ZOT_UP_2
+          amount: 1
+        2:
+          type: NONE 
+          id: N/A
+          amount: 1
+    8:
+      speed-in-seconds: 120
+      input:
+        1:
+          type: SLIMEFUN
+          id: ZOT_DOWN
+          amount: 1
+        2:
+          type: SLIMEFUN
+          id: QUIRPCONDENSATE
+          amount: 64
+      output:
+        1:
+          type: SLIMEFUN
+          id: ZOT_DOWN_2
+          amount: 1
+        2:
+          type: NONE 
+          id: N/A
+          amount: 1
+    9:
+      speed-in-seconds: 120
+      input:
+        1:
+          type: SLIMEFUN
+          id: ZOT_LEFT
+          amount: 1
+        2:
+          type: SLIMEFUN
+          id: QUIRPCONDENSATE
+          amount: 64
+      output:
+        1:
+          type: SLIMEFUN
+          id: ZOT_LEFT_2
+          amount: 1
+        2:
+          type: NONE 
+          id: N/A
+          amount: 1
+    10:
+      speed-in-seconds: 120
+      input:
+        1:
+          type: SLIMEFUN
+          id: ZOT_RIGHT
+          amount: 1
+        2:
+          type: SLIMEFUN
+          id: QUIRPCONDENSATE
+          amount: 64
+      output:
+        1:
+          type: SLIMEFUN
+          id: ZOT_RIGHT_2
+          amount: 1
+        2:
+          type: NONE 
+          id: N/A
+          amount: 1
+
+
+LOGICTECH_GOLD_TRANSFER:
+  category: logictech_slimefunmore
+  machine-name: '&x&e&b&3&3&e&b金&x&d&a&2&9&d&a元&x&c&9&1&f&c&9素&x&b&9&1&4&b&9转&x&a&8&0&a&a&8换&x&9&7&0&0&9&7器'
+  machine-lore:
+  - '&7快速进行4k金和原版金的转换'
+  - ''
+  - "&3逻辑工艺机器"
+  block-type: SKULL1a64501b1ba53d1d4e9f402917b5bd47727b16702acf6930d6121c07dc42ae1a
+  progress-bar-item: GOLD_BLOCK
+  stats:
+    energy-consumption: 237
+    energy-buffer: 3000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: VANILLA_AUTO_CRAFTER
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: VANILLA_AUTO_CRAFTER
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: VANILLA_AUTO_CRAFTER
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: VANILLA_AUTO_CRAFTER
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: LOGICTECH_CRAFTPART
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: VANILLA_AUTO_CRAFTER
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: VANILLA_AUTO_CRAFTER
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: LOGICTECH_IOPORT
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: VANILLA_AUTO_CRAFTER
+      amount: 1
+  recipes:
+    1:
+      input:
+        1:
+          amount: 32
+          id: GOLD_4K
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      output:
+        1:
+          amount: 32
+          id: GOLD_INGOT
+          type: VANILLA
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 0
+    2:
+      input:
+        1:
+          amount: 32
+          id: GOLD_INGOT
+          type: VANILLA
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      output:
+        1:
+          amount: 32
+          id: GOLD_4K
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 0
+LOGICTECH_LSIN_ABSTRACTOR:
+  category: logictech_basicmachines
+  machine-name: '&x&e&b&3&3&e&b奇&x&d&d&2&b&d&d点&x&c&f&2&2&c&f概&x&c&1&1&a&c&1念&x&b&3&1&1&b&3抽&x&a&5&0&9&a&5象&x&9&7&0&0&9&7器'
+  machine-lore:
+  - '&7用于制造概念奇点'
+  - ''
+  - "&3逻辑工艺机器"
+  block-type: END_STONE_BRICKS
+  progress-bar-item: NETHER_STAR
+  stats:
+    energy-consumption: 16624
+    energy-buffer: 666666
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: LOGICTECH_MACHINE_FRAME
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: LOGICTECH_LCORE_COMPRESS
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: LOGICTECH_INTERPRETER
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id:  INFINITY_CONSTRUCTOR
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: INFINITY_SINGULARITY
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: LOGICTECH_IOPORT
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: LOGICTECH_LCORE_COMPRESS
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: LOGICTECH_MACHINE_FRAME
+      amount: 1
+  recipes:
+    1:
+      input:
+        1:
+          amount: 64
+          id: VOID_INGOT
+          type: SLIMEFUN
+        2:
+          amount: 64
+          id: VOID_INGOT
+          type: SLIMEFUN
+      output:
+        1:
+          amount: 1
+          id: LOGIC_LSIN_VOIDINGOT
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 60
+    2:
+      input:
+        1:
+          amount: 64
+          id: MAGNONIUM
+          type: SLIMEFUN
+        2:
+          amount: 64
+          id: MAGNONIUM
+          type: SLIMEFUN
+      output:
+        1:
+          amount: 1
+          id: LOGIC_LSIN_MAGNONIUM
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 60
+    3:
+      input:
+        1:
+          amount: 64
+          id: BASIC_CIRCUIT_BOARD
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      output:
+        1:
+          amount: 1
+          id: LOGIC_LSIN_BASICCIRCUITBOARD
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 30
+      
+
+LOGICTECH_LSIN_MERGER:
+  category: logictech_basicmachines
+  machine-name: '&x&e&b&3&3&e&b奇&x&d&d&2&b&d&d点&x&c&f&2&2&c&f概&x&c&1&1&a&c&1念&x&b&3&1&1&b&3聚&x&a&5&0&9&a&5合&x&9&7&0&0&9&7器'
+  machine-lore:
+  - '&7用于概念奇点的聚合'
+  - ''
+  - "&3逻辑工艺机器"
+  block-type: LODESTONE
+  progress-bar-item: LODESTONE
+  stats:
+    energy-consumption: 55319
+    energy-buffer: 666666
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: LOGICTECH_MACHINE_FRAME
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: LOGICTECH_LCORE_COMPRESS
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: LOGICTECH_INTERPRETER
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id:  LOGICTECH_LCORE_MERGE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: RESOURCE_SYNTHESIZER
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: LOGICTECH_LCORE_MERGE
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: LOGICTECH_IOPORT
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: LOGICTECH_LCORE_COMPRESS
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: LOGICTECH_MACHINE_FRAME
+      amount: 1
+  recipes:
+    1:
+      input:
+        1:
+          amount: 1
+          id: IRON_SINGULARITY
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: QUARTZ_SINGULARITY
+          type: SLIMEFUN
+      output:
+        1:
+          amount: 1
+          id: LOGIC_LSIN_SOLARPANEL
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 3
+    2:
+      input:
+        1:
+          amount: 1
+          id: ZINC_SINGULARITY
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: COPPER_SINGULARITY
+          type: SLIMEFUN
+      output:
+        1:
+          amount: 1
+          id: LOGIC_LSIN_ELECTROMAGNET
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 3
+    3:
+      input:
+        1:
+          amount: 6
+          id: DIAMOND_SINGULARITY
+          type: SLIMEFUN
+        2:
+          amount: 4
+          id: COAL_SINGULARITY
+          type: SLIMEFUN
+      output:
+        1:
+          amount: 1
+          id: LOGIC_LSIN_CARBONADO
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 9
+    4:
+      input:
+        1:
+          amount: 6
+          id: GOLD_SINGULARITY
+          type: SLIMEFUN
+        2:
+          amount: 4
+          id: EMERALD_SINGULARITY
+          type: SLIMEFUN
+      output:
+        1:
+          amount: 1
+          id: LOGIC_LSIN_BLISTINGINGOT
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 9
+    5:
+      input:
+        1:
+          amount: 3
+          id: IRON_SINGULARITY
+          type: SLIMEFUN
+        2:
+          amount: 4
+          id: COAL_SINGULARITY
+          type: SLIMEFUN
+      output:
+        1:
+          amount: 1
+          id: LOGIC_LSIN_REINFORCEDALLOY
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 6
+    6:
+      input:
+        1:
+          amount: 4
+          id: REDSTONE_SINGULARITY
+          type: SLIMEFUN
+        2:
+          amount: 4
+          id: COAL_SINGULARITY
+          type: SLIMEFUN
+      output:
+        1:
+          amount: 1
+          id: LOGIC_LSIN_REDSTONEALLOY
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 6
+    7:
+      input:
+        1:
+          amount: 3
+          id: LOGIC_LSIN_REINFORCEDALLOY
+          type: SLIMEFUN
+        2:
+          amount: 10
+          id: MAGNESIUM_SINGULARITY
+          type: SLIMEFUN
+      output:
+        1:
+          amount: 1
+          id: LOGIC_LSIN_MAGSTEEL
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 9
+    8:
+      input:
+        1:
+          amount: 4
+          id: LOGIC_LSIN_ELECTROMAGNET
+          type: SLIMEFUN
+        2:
+          amount: 3
+          id: QUARTZ_SINGULARITY
+          type: SLIMEFUN
+      output:
+        1:
+          amount: 1
+          id: LOGIC_LSIN_MACHINECIRCUIT
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 9
+    9:
+      input:
+        1:
+          amount: 3
+          id: LOGIC_LSIN_MAGSTEEL
+          type: SLIMEFUN
+        2:
+          amount: 25
+          id: LOGIC_LSIN_REINFORCEDALLOY
+          type: SLIMEFUN
+      output:
+        1:
+          amount: 1
+          id: LOGIC_LSIN_MACHINEPLATE
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 9
+    10:
+      input:
+        1:
+          amount: 12
+          id: INFINITY_SINGULARITY
+          type: SLIMEFUN
+        2:
+          amount: 16
+          id: LOGIC_LSIN_MACHINECIRCUIT
+          type: SLIMEFUN
+      output:
+        1:
+          amount: 1
+          id: LOGIC_LSIN_INFINITYMACHINECIRCUIT
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 12
+    10:
+      input:
+        1:
+          amount: 1
+          id: LOGIC_LSIN_ELECTROMAGNET
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: LOGIC_LSIN_REINFORCEDALLOY
+          type: SLIMEFUN
+      output:
+        1:
+          amount: 1
+          id: LOGIC_LSIN_CARGOMOTOR
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 12
+      
+      
+LOGICTECH_LSIN_SPECIFIC:
+  category: logictech_basicmachines
+  machine-name: '&x&e&b&3&3&e&b奇&x&d&d&2&b&d&d点&x&c&f&2&2&c&f概&x&c&1&1&a&c&1念&x&b&3&1&1&b&3具&x&a&5&0&9&a&5象&x&9&7&0&0&9&7器'
+  machine-lore:
+  - '&7用于概念奇点的具象'
+  - ''
+  - "&3逻辑工艺机器"
+  block-type: FURNACE
+  progress-bar-item: DIAMOND_PICKAXE
+  stats:
+    energy-consumption: 32731
+    energy-buffer: 666666
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: LOGICTECH_MACHINE_FRAME
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: LOGICTECH_LCORE_INVERSE
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: LOGICTECH_INTERPRETER
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id:  RESOURCE_SYNTHESIZER
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: INFINITY_REACTOR
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: RESOURCE_SYNTHESIZER
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: LOGICTECH_IOPORT
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: LOGICTECH_LCORE_INVERSE
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: LOGICTECH_MACHINE_FRAME
+      amount: 1
+  recipes:
+    1:
+      input:
+        1:
+          amount: 1
+          id: LOGIC_LSIN_MACHINECIRCUIT
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      output:
+        1:
+          amount: 64
+          id: MACHINE_CIRCUIT
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 0
+    2:
+      input:
+        1:
+          amount: 1
+          id: LOGIC_LSIN_MAGSTEEL
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      output:
+        1:
+          amount: 64
+          id: MAGSTEEL_PLATE
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 0
+    3:
+      input:
+        1:
+          amount: 1
+          id: LOGIC_LSIN_MACHINEPLATE
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      output:
+        1:
+          amount: 64
+          id: MACHINE_PLATE
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 0
+    4:
+      input:
+        1:
+          amount: 1
+          id: LOGIC_LSIN_MACHINEPLATE
+          type: SLIMEFUN
+        2:
+          amount: 4
+          id: LOGIC_LSIN_MACHINECIRCUIT
+          type: SLIMEFUN
+      output:
+        1:
+          amount: 64
+          id: MACHINE_CORE
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 0
+    5:
+      input:
+        1:
+          amount: 1
+          id: LOGIC_LSIN_INFINITYMACHINECIRCUIT
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      output:
+        1:
+          amount: 64
+          id: INFINITE_MACHINE_CIRCUIT
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 0
+    6:
+      input:
+        1:
+          amount: 1
+          id: LOGIC_LSIN_INFINITYMACHINECORE
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      output:
+        1:
+          amount: 64
+          id: INFINITE_MACHINE_CORE
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 0
+    7:
+      input:
+        1:
+          amount: 1
+          id: LOGIC_LSIN_SOLARGENERATOR1
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      output:
+        1:
+          amount: 64
+          id: SOLAR_GENERATOR
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 0
+    8:
+      input:
+        1:
+          amount: 1
+          id: LOGIC_LSIN_SOLARGENERATOR2
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      output:
+        1:
+          amount: 64
+          id: SOLAR_GENERATOR_4
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 0
+    9:
+      input:
+        1:
+          amount: 1
+          id: LOGIC_LSIN_SOLARGENERATOR3
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      output:
+        1:
+          amount: 64
+          id: CELESTIAL_PANEL
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 0
+    10:
+      input:
+        1:
+          amount: 1
+          id: LOGIC_LSIN_INFINITYPANEL
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      output:
+        1:
+          amount: 64
+          id: INFINITE_PANEL
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 0
+    10:
+      input:
+        1:
+          amount: 1
+          id: LOGIC_LSIN_INFINITYPANEL
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      output:
+        1:
+          amount: 64
+          id: INFINITE_PANEL
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 0
+    11:
+      input:
+        1:
+          amount: 1
+          id: LOGIC_LSIN_CAPACITOR
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      output:
+        1:
+          amount: 64
+          id: CARBONADO_EDGED_CAPACITOR
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 0
+    12:
+      input:
+        1:
+          amount: 2
+          id: LOGIC_LSIN_ELECTROMAGNET
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      output:
+        1:
+          amount: 64
+          id: ELECTRIC_MOTOR
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 0
+    13:
+      input:
+        1:
+          amount: 1
+          id:  LOGIC_LSIN_CARGOMOTOR
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      output:
+        1:
+          amount: 64
+          id: CARGO_MOTOR
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 0
+    14:
+      input:
+        1:
+          amount: 1
+          id:  LOGIC_LSIN_BASICCIRCUITBOARD
+          type: SLIMEFUN
+        2:
+          amount: 4
+          id: REDSTONE_SINGULARITY
+          type: SLIMEFUN
+      output:
+        1:
+          amount: 64
+          id: ADVANCED_CIRCUIT_BOARD
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 0
+    15:
+      input:
+        1:
+          amount: 1
+          id:  LOGIC_LSIN_FURNACE
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      output:
+        1:
+          amount: 64
+          id: CARBONADO_EDGED_FURNACE
+          type: SLIMEFUN
+        2:
+          amount: 1
+          id: N/A
+          type: NONE
+      speed-in-seconds: 0
+     
