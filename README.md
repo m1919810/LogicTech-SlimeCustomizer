@@ -24,6 +24,7 @@ This is mtl's first slimeCustomizer project.
 > We don't suggest that you install high version of FinalTECH
 
 - FinalTECH.jar is provided in our repository used for development
+- Modified slimecustomizer.jar is provided in our repository used for development
 
 ## Install these slimecustomizers as depend:
 ```
