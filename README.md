@@ -1,3 +1,8 @@
+ZH-CN
+
+
+EN-US
+
 # LogicTech-SlimeCustomizer
 This is mtl's first slimeCustomizer project.
 
