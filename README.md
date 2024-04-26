@@ -1,5 +1,5 @@
 # LogicTech-SlimeCustomizer
-This is mtl's first slimeCustomizer project.
+
 这是mtl的第一个自定义粘液附属项目
 
 # 安装事项
