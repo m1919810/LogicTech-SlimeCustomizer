@@ -124,5 +124,5 @@ Mark:
 - And it will probably reduce the number of FINALTECH_TRANSFER, DISMANTLE_TABLE, NTW_CRAFTER and other FinalTECH machines placed in world
 
 ## About version
-- See detailed information in README.txt
+- See detailed information in [README.txt](README.txt)
   
