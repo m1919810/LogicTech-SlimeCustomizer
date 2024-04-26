@@ -1,6 +1,62 @@
-ZH-CN
+# LogicTech-SlimeCustomizer
+This is mtl's first slimeCustomizer project.
+这是mtl的第一个自定义粘液附属项目
+
+# 安装事项
 
 
+## 安装如下附属前置
+```
+  - Slimefun
+  - FoxyMachines
+  - InfinityExpansion
+  - LiteXpansion
+  - TranscEndence
+  - GuizhanLibPlugin
+  - Gastronomicon
+  - DynaTech
+  - FinalTECH/FinalTech
+```
+- 注意检查附属名称FIinalTECH的大小写，正常slimecustomizer是接收FinalTech而不接受FinalTECH的，如果你执意要安装FinalTECH，可以用压缩工具打开jar文件修改其中的plugins.yml，或者使用我们在仓库中提供的slimecustomizer 然后在config中关闭自动更新
+- 开发使用的FinalTECH版本是FinalTECH 2.0-preview
+- 开发使用的FinalTECH已经附加在仓库中了
+- 我们不建议安装过高版本的FinalTECH，就FinalTECH自身玩法来说
+
+## 安装如下自定义粘液附属前置
+```
+  - HaimanTech
+```
+- 开发使用的海曼研究院版本是Beta1.6
+- 但是基本上你能找到的所有版本都是支持的
+- 我们开发使用的海曼配置已经附加在仓库中了
+- 你可以去 [这里找到最新版本的海曼科技](https://github.com/haiman233/HaimanTech2)
+
+
+
+注意事项:
+- LogicTECH的配置合并时应该放在自定义粘液附属前置的后面
+- 如果你会使用python，可以使用提供的combine_sc.py进行合并
+- ~~我们将来会考虑做一个更好的合并程序~~
+# 关于LogicTECH
+## 我们的目标
+- 逻辑工艺(LogicTECH)一款主要基于FinalTECH(乱序技艺)的自定义粘液附属
+- 众所周知，乱序的很多强大的机器，比如货运类和反向合成台等会让粘液刻变得糟糕，因为大家都在大量使用，甚至不合理使用
+- 所以我们尝试使用这个附属提供一系列的高速率压缩机器和压缩产线，在增加合成表和合成路径的复杂度的同时
+- 让服务器资源耗用降低的同时增加玩家的游戏体验
+- 同时，我们创立的新的合成途径，让玩家少用合成机
+## 我们的实现方式
+- 逻辑工艺尝试将玩家产线的复杂性抽象进合成表的复杂性，并用一体机和压缩机器代替
+- 机器产速是经过衡量的，并不会超模
+## 关于乱序
+- 逻辑工艺是基于乱序v2-preview开发的
+- 我知道乱序的一些机器和物品可能在某些服务器过于op，例如尘埃反应堆(MATRIX_REACTOR)的复制物品特性
+- 这个附属可以正常运行 即使将尘埃反应堆(MATRIX_REACTOR)禁用
+- 并且我保证使用它可以降低玩家放置在世界中的乱序货运，反向合成台，网络合成机等的数量
+## 关于版本
+- 在[README.txt](README.txt)中查看详细信息
+
+ 
+ 
 EN-US
 
 # LogicTech-SlimeCustomizer
